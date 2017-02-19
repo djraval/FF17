@@ -52,7 +52,7 @@
 
 <body>
 
-    <div id="wrapper">
+    <div id="wrapper" style="display: none;" class="toggled">
 
         <!-- Sidebar -->
         <!-- Sidebar -->
@@ -99,9 +99,7 @@
             </ul>
         </div>
      
-	<script type="text/javascript">
-		$("#wrapper").toggleClass("toggled");
-	</script>
+	
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
@@ -181,6 +179,7 @@
         $("#wrapper").toggleClass("toggled");
     });
     	
+    	document.getElementById("wrapper").style="display: block";
     </script>
  
 </body>
