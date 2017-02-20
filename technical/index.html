@@ -315,10 +315,12 @@
 		<div id="modal-wrapper"></div>
         	
         <center>
-        <ul id="sti-menu" class="sti-menu">
-		
-		
-		
+    <div class="breadcrumb_wrappper" style="font-size: 2.2em; color: #f0f0f0; font-family: 'Champagne & Limousines">
+		<span style="background-color: rgba(10,10,10,0.7); padding: 10px; border-radius: 5px;" > Technical </span> <span class="glyphicon glyphicon-menu-right" style="font-size: 0.8em;"> </span> <span class="branch_name" id="branch_name" style="background-color: rgba(200,60,60,0.5); padding: 10px; border-radius: 5px; font-size: 0.9em;">  </span>
+    </div>
+    <br><br>
+    <ul id="sti-menu" class="sti-menu">
+			
 	</ul>
 	</center>
       </div><!-- /container -->
@@ -332,7 +334,10 @@
 		</div><!-- /pagewrap -->
 	      </div>
 	     </div>
-	     <a href="#menu-toggle"> <span class="glyphicon glyphicon-menu-hamburger" id="menu-toggle" style="text-decoraion:none ;position: fixed; left: 15px; top: 25px; color: #f0f0f0; font-size: 2em;"></span></a>
+	     
+	     <a href="../welcome.html" style="float: left; font-size: 2em; background-color:rgba(0,0,0,0); position: fixed; left: 1.9em; top: 0.4em; color: #f0f0f0;" onclick="reload_boxes();"><span class="glyphicon glyphicon-home"></span></a>
+	     <a href="#menu-toggle"> <span class="glyphicon glyphicon-menu-hamburger" id="menu-toggle" style="text-decoraion:none ;position: fixed; left: 0.3em; top: 0.5em; color: #f0f0f0; font-size: 2em;"></span></a>
+	     
 	      
 	      </div>
 		<script src="js/classie.js"></script>
@@ -461,6 +466,9 @@
 	    for(i=0;i<10;i++) {
 	      document.getElementById("event-" + nums[i]).style.visibility="visible";
 	    }
+	    
+	    document.getElementById("branch_name").innerHTML= data.technical[id]["tag"];
+	    
 	    document.getElementById("modal-wrapper").innerHTML = "";
 	     window.scrollTo(0, 0);
 	    for(eventNum in nums) {
