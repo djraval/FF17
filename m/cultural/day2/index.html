@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script type="text/javascript">
+        if((window.innerHeight > 853 && window.innerWidth > 480) || (window.innerWidth > 853 && window.innerHeight > 480)) {
+            window.location = "../../index.html";
+        }
+    </script>
+
     <link href='http://fonts.googleapis.com/css?family=Vollkorn|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
@@ -61,12 +67,16 @@
        <!-- <div>
             It is the time to be in a traditional Indian attire. May it be a saree or a kurta or any of the regional attire, dress to your best. Pick a choice that represents the essence of our vast Indian culture.
         </div>-->
-      <div id = "card_gallery_swipe">
-      <br>
-      <br>
-      <br>
-      <h2> No Scheduled Events </h2>
-      </div>
+        <ul class="cd-gallery" id="card_gallery_swipe">
+            <li class="cd-item">
+                <a href="../../event_pages/day2_first.html">
+                    <div>
+                        <h2>Picture Abhi Baaki Hai ..!</h2>
+                    </div>
+                </a>
+            </li>
+
+        </ul> <!-- .cd-gallery -->
     </center>
 
 </main> <!-- .cd-main -->
