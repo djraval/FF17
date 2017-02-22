@@ -14,7 +14,7 @@
 #overlay {
   pointer-events: none;
 /*   background-image: url("images/wahtaj2.jpg"); */
-  background : url("images/Cultural.jpg");
+/*   background : url("images/Cultural.jpg"); */
   background-size: 100%;
   opacity: 0;
     -webkit-animation: black-part 4s;
