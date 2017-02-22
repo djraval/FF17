@@ -41,6 +41,7 @@
 		<link rel="stylesheet" type="text/css" href="css/stimenu.css" />
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
 		<link href='http://fonts.googleapis.com/css?family=Wire+One&v1' rel='stylesheet' type='text/css' />
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		
 		<link rel="stylesheet" href="reveal.css">
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
@@ -128,6 +129,8 @@
                 </li>
             </ul>
         </div>
+		
+		<a href="../Master Schedule_2017.pdf" id = "schedule" style="position: absolute; z-index:1000; top: 10px; right: 20px; color:#cbd0d8; font-family: 'Roboto', sans-serif; font-size: 20px;">Schedule</a>
         
         <script type="text/javascript">
 		$("#wrapper").toggleClass("toggled");
@@ -146,6 +149,7 @@
 				<!-- Top Navigation -->
 				<header class="codrops-header">
 					<h1 style="font-family: 'Russo One', sans-serif;font-size:58px; color:#cbd0d8;">Technical events</h1>
+					
 				</header>
 				<section class="columns clearfix row">
 				  
@@ -297,14 +301,14 @@
 
 			<!-- The new page dummy; this would be dynamically loaded content -->
 
-			<div class="container" id="page-2" style="width: 100%">
+			<div class="container" id="page-2" style="width: 100%;" >
 				<!-- Top Navigation -->
 				
 				<!--<section>
 					<h2>This is an example for a new page.</h2>
 					<p><a class="pageload-link" href="#page-1">Go back</a></p>
 				</section>-->
-				<a class="pageload-link" href="#page-1" style="float: right; font-size: 3em; background-color:rgba(0,0,0,0);" onclick="reload_boxes();"><span class="glyphicon glyphicon-remove"></span></a>
+				<a class="pageload-link" href="#page-1" style="float: right; font-size: 3em; background-color:rgba(0,0,0,0); margin-top: 10px;" onclick="reload_boxes();"><span class="glyphicon glyphicon-remove"></span></a>
 				
          <!--<div id="content" style="background:#fff url(images_2/bg.png) no-repeat top left; position: absolute; left: 0px; background-color: #0f0f0f;">
 	    
@@ -344,6 +348,15 @@
 	      
 	      </div>
 		<script src="js/classie.js"></script>
+		<script>
+		function hideSc()
+		{
+			if($(".breadcrumb_wrappper") != null)
+			{
+				$("#schedule").hide();
+			}
+		}
+		</script>
 		<script src="js/svgLoader.js"></script>
 		
 		
