@@ -2,12 +2,17 @@
 <head>
   <title>Felicific 2017</title>
 
-  <script type="text/javascript">
-			var w = window.innerWidth;
-			if(w < 750) {
-				window.location = "../m"
-			}
-		</script>
+ <script type="text/javascript">
+
+	 if((window.screen.availHeight <= 736 && window.screen.availWidth <= 414) || (window.screen.availWidth <= 736 && window.screen.availHeight <= 414)) {
+             window.location = "m/index.html";
+         }
+ 		if((window.innerHeight <= 736 && window.innerWidth <= 414) || (window.innerWidth <= 736 && window.innerHeight <= 414)) {
+             window.location = "m/index.html";
+         }
+	 
+</script>
+
 
 <style>
 
