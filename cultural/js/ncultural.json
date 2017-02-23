@@ -93,7 +93,7 @@ data={
             "date":"8th March 2016",
             "time":"12:00 onwards",
             "venue":"Class room no 7,8",
-            "fees":"20\/- per head",
+            "fees":"20/- per head",
             "contact":"Chirag Solanki(c)\r\nEmail - chirusolucky13@gmail.com\r\nMobile - 9033841471\r\n"
          },
          "third":{
@@ -108,6 +108,18 @@ data={
             "fees":"120\/- per team",
             "contact":"Hardik Modi\r\nhardikmodi2@gmail.com\r\n9662475666"
          }
+		     "forth":{
+            "name":"Box Cricket",
+            "tagline":"",
+            "description":"",
+            "rules":"1-one pitch one hand out/r/n2-more than 1.5 feet height out otherwise it is called six/r/n3- Twice run in direct ball/r/n4-stumping out/r/n5-overstepping=no ball/r/n6-atleast 1 girl in team,& one over compulsory for girl/r/n7-atmost 4 boys/r/n8-bowling behind stumps/r/n9-direct ball above knees=no ball",
+            "teamsize":"4 Boys and 1 Girl",
+            "date":"8th March 2016",
+            "time":"09:00 am onwards",
+            "venue":"Staff parking / Civil department  parking ",
+            "fees":"150/- per team",
+            "contact":"Dhaduk Aman(c)\r\nMobile - 8758375375\r\n"
+         },
       },
       "day5":{
          "name":"Day 5",
