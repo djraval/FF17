@@ -1,574 +1,184 @@
 <?php
 
 $json_string='{
-	"technical": {
-		"ce": {
-			"name": "Computer Engineering",
-			"tag": "Insilico",
-			"totalevents": 6,
-			"first": {
-				"name": "CodeJam",
-				"tagline": "The code is long and full of errors ..!",
-				"description": "College Level contest which will challenge students to improve their coding capability.",
-				"rules": "Round 1: Pen-n- paper based Elimination Round\r\n\r\nPen-n- paper round with fundamental multiple choice questions of different programming concepts and features.\r\n\r\nQualification to the next round will be based on ranking or cut-off marks.\r\n\r\nTime Duration: 45 min\r\n\r\nRound 2: Encryption-Decryption(using computer)\r\n\r\nEach team will be given problem statement. They will have to write program for the same.\r\n\r\nQualification to the next round will be based on maximum number of test cases which they satisfy and time taken.\r\n\r\nTime Duration: 60-90 min\r\n\r\nRound 3: High Level Coding(using computer)\r\n\r\nEach team will be set of questions for which they will be asked to implement optimised code.\r\n\r\nWinner will be chosen on maximum number of correct implementation in least time.\r\n\r\nTime Duration: 120 min\r\n\r\nRules:\r\n\r\n1. Final result will be based on number of correct implementation in least amount of time.\r\n\r\n2. Participants will not be allowed to access internet.\r\n\r\n3. Tie-Breaker: Indentation, Code Re-use and Use of language specific features.",
-				"teamsize": "2",
-				"date": "7th March 2017",
-				"time": "12:30-2:30 pm",
-				"venue": "CE Lab 2 and 3",
-				"fees": "Rs. 60 per team",
-				"contact": "Harsh Sodiwala(M:9898548458 email: harshsodi@gmail.com)\r\n\r\nAditi Dandekar(M:9727254852 email: aditi.a.dandekar@gmail.com)"
-			},
-			"second": {
-				"name": "The Geek",
-				"tagline": "Let the nerd out of you ..!",
-				"description": "Become “Second to None” Computer user by applying your awareness,creativity and skills in using a Computer effectively.",
-				"rules": "Round 1: Pen-paper based Elimination Round\r\n\r\nParticipants will be given a set of questions which will check their knowledge of Moderate Level Computer Skills and Awareness.\r\n\r\nQualification for the next round will be based on ranking or cutoff marks.\r\n\r\nTime Duration: 45 Minutes\r\n\r\nRound 2: Tasks on Windows and Linux OS (Using Computer)\r\n\r\nParticipants will be given various tasks which they need to perform on Windows and Linux Operating Systems using GUI or Terminal. There will be a time limit for completion of each task and points will be given according to completeness of each task and the best way used for completion of the same.\r\n\r\nTime Duration: 90-120 Minutes\r\n\r\nRound 3: Clues Based Round (Using Computer)\r\n\r\nParticipants have to a complete a task after completion of which they will get a clue to be used for their next task. The clue will be available from either the previous task itself or the participants will be asked a question whose answer will be their clue. The points for each task will be based on the time taken to complete the task and its correct completion.\r\n\r\nTime Duration: 120-150 Minutes\r\n\r\nRules:\r\n\r\n1. Final result will be based on total points scored and time taken by the participants.\r\n\r\n2. Internet access will be restricted for some tasks.\r\n\r\n3. There will be a tie breaker round after the last round if two teams have same score.",
-				"teamsize": "1",
-				"date": "7th March 2017",
-				"time": "9:00 to 11:00 AM",
-				"venue": "CE Lab 2 and (3 or 4 having Windows)",
-				"fees": "Rs. 30",
-				"contact": "Sanket Bhimani (M: 82090983120, Email: snk.bhimani.jnd@gmail.com)\r\n\r\nJuhi Madhwani (M: 8866640452, Email: juhimadhwani1296@gmail.com)"
-			},
-			"third": {
-				"name": "Android Man",
-				"tagline": "",
-				"description": "Uplift your creativity and transform your Android phone into a Swiss-knife.",
-				"rules": "Round 1: Pen paper Elimination Round\r\n\r\nParticipants will be given a set of questions which will check their knowledge about Android as a whole will be tested.\r\n\r\nE.g. Android user Experience, Android Applications, Tasks that one can do on Android Device,Android Rooting etc.\r\n\r\nQualification for the next round will be based on ranking or cutoff marks.\r\n\r\nTime Duration: 30 Minutes.\r\n\r\nRound 2: Perform Task on your Android Phone\r\n\r\nPhase I: It will be rapid fire round where participants will get points on how quick they perform simple tasks in their own android device.\r\n\r\nPhase II: A set of tasks will be given to participants. (E.g.convert a photo into black and white) They need to perform the tasks in minimum time and in a best way.\r\n\r\nTime Duration: - 90 Minutes\r\n\r\nRules: -\r\n\r\n? Final result will be based on rankings in 2nd rounds.\r\n\r\n? Participants have to pre-install apps on their device. Internet access won’t be allowed for any Round.\r\n\r\n? No restriction on installation of apps. Any number/type of apps can be installed on the device.\r\n\r\n? Any Android mobile device can be used.\r\n\r\n? Tablets are allowed.\r\n\r\n? Minimum android version 4.1, jellybean.",
-				"teamsize": "1",
-				"date": "7th March 2017",
-				"time": "12:00 to 1:30 PM",
-				"venue": "Round 1: - 1 Classroom.  Round 2(I): - 1 Lab or Classroom.  Round 2(II): - 1 Lab or Classroom.",
-				"fees": "Rs. 30",
-				"contact": "Riya Delhiwala (riyadelhiwala97@gmail.com M: 9898815283)\r\n\r\nVarun Shah (varun.shah196@gmail.com M: 9712820311)"
-			},
-			"forth": {
-				"name": "Hardware Rush",
-				"tagline": "Rich the Treasure, Sweet the Pleasure",
-				"description": "Find the Treasure by using every ounce of technical knowledge you have.",
-				"rules": "Round 1: - Pen-paper elimination round\r\n\r\nThere will be a team of 2 participants.\r\n\r\nParticipants will be given a set of questions which will check their knowledge of basic\r\n\r\nHardware and basic network. This will be an online test.\r\n\r\nQualification for the next round will be based on ranking or cutoff marks.\r\n\r\nApprox Time: - 1 hour\r\n\r\nRound 2: - Biding and Selling\r\n\r\nIn this round, teams will be given some credits based on which they will have to bid for different hardware components so that they can make the best possible combination of component assembly.\r\n\r\nThe team making best assembly will advance for the next round.\r\n\r\nApprox Time: - 3-4 hour\r\n\r\nRound 3: - The Treasure hunt\r\n\r\nThis is the final round. In this round a treasure will be conducted where the teams will be given some clues based on which they have to crack the location and there they will get another clue for the next place. At last participants will have assembled hardware components and team doing it first will win.\r\n\r\nApprox Time: - 3-4 hour\r\n\r\nRules: -\r\n\r\n? There will no internet access for the participants\r\n\r\n? Credits will be given based on the elimns performance\r\n\r\n? Products are to be sold to the committee members at the selling round.",
-				"teamsize": "2",
-				"date": "7th March 2017",
-				"time": "1:00  to 5:00 PM",
-				"venue": "Round 1: - 2 Lab.  Round 2: - 1 Lab or Classroom.  Round 3: - 1 Lab or Classroom.",
-				"fees": "80/- per head",
-				"contact": "Ravinder Singh (Mobile No. : - 8460348865 Mail ids: - ravindersingh3104rs@gmail.com)"
-			},
-			"fifth": {
-				"name": "Gaming-FIFA",
-				"tagline": "It s in the game ..!",
-				"description": "Battle through different players in different teams.",
-				"rules": "Round 1: - Hometown round\r\n\r\nInternational or Club gameplay will be decided on the basis of a toss.\r\n\r\nBoth players will be allowed to select a team and then that player will have to in his own team in this round also known as Home Team.\r\n\r\nRound comprises of 4 min half that is complete 8 min game.\r\n\r\nThis round will be of one game.\r\n\r\nApprox Time: - 10 Min.\r\n\r\nRound 2: - Away round\r\n\r\nIn this round the player who played in the home country in previous round will play in other player’s selected country that is away country.\r\n\r\nThis round too will be of 4 min half which is 8 min full.\r\n\r\nThis round will be of one game.\r\n\r\nThe scores will be the total score achieved in both rounds.\r\n\r\nIf a player playing in away scores a goal than that point will be added as a bonus point and will only be considered when both players scores equal sum of goals.\r\n\r\nThe structure of the competition is tree structure that is each pair of round will be knock out round.\r\n\r\nThe finale will be of around 20 min full having same round structure.\r\n\r\nApprox Time: - 10 Min.\r\n\r\nRules: -\r\n\r\n? Controllers if provided by committee are not to be damaged and if damaged player will have to pay certain fine.\r\n\r\n? Players are allowed to bring their own controllers.\r\n\r\n? Players must be present in the tournament area with the whole team at the notifications schedule. Players are advised to be present a few minutes before the schedule to avoid any unpredictable delay. If the team is not present at the notification schedule, they shall be disqualified.\r\n\r\n? Teams will be given 1 minutes to configure their settings and after that use of console or change in settings will be strictly prohibited.\r\n\r\n? The seating arrangement is to the discretion of the tournament officials.\r\n\r\n? Players are allowed to bring their own headphones.Headphones will not be provided by the committee.",
-				"teamsize": "1",
-				"date": "7th March 2017",
-				"time": "12:00 to 5:00 pm",
-				"venue": "Lab 5",
-				"fees": "30/- per head",
-				"contact": "Binit Gajera (Mobile No. : - 9714983493 Mail ids: - binit_gajera@yahoo.com)"
-			},
-			"sixth": {
-				"name": "Gaming Counter Strike 1.6",
-				"tagline": "Keep your head low and aim high!",
-				"description": "Battle through different players in different teams.",
-				"rules": "Main Tournament:\r\n\r\nThe tournament will be knock out. The team which wins its 1st stage match advances to the\r\n\r\nnext stage. The knock out continues till we get final 4 top scoring teams for the semi- finals.There will not be any match played for the third spot.\r\n\r\nEvery prelims and quarters match will be played on one map with a total of 7 rounds.For pre-semifinals, there would be a trial round\r\n\r\nTHE WINNER OF THE TRIAL ROUND WILL DECIDE THEIR SIDE\r\n\r\n1) Terrorist.\r\n\r\n2) Counter terrorist.\r\n\r\nSemi-finals:\r\n\r\nFor the Semi-Finals, total number of rounds will be 14 (7 each as a Counter Terrorists and\r\n\r\nTerrorists). For each round win, team will be rewarded 1 point.\r\n\r\nFinals:\r\n\r\nFor the final round, there would be 20 rounds (10 each as terrorist and counter-terrorist).\r\n\r\nFor each round win, team will be rewarded 1 point.\r\n\r\nTie breaker:\r\n\r\nThere will be extra 7 rounds played on the same map and the team will start as the same as it finished in the normal rounds.The start money for the tie breaker rounds will be $10000.The team to win first 4 rounds total will be the winner of the match.If a tie breaker also leads to a draw then 1 extra round will be played and the winner will be the winner of the match.\r\n\r\nGame Settings:\r\n\r\nUse of Tactical Shield is strictly forbidden.\r\n\r\nIf a team uses it intentionally or unintentionally, the team loses the round immediately.\r\n\r\nIntentional or unintentional use of bugs and/or exploits is strictly forbidden. Any questions regarding bugs and/or exploits must be brought to the tournament official present there. If a team is found to use bugs and/or exploits, the opponent team shall be declared as the winner of the match and a warning will be given to the team that used bugs and/or exploits by the tournament official.\r\n\r\nThe following settings will be set on servers:Round-time: 1 min 45 sec Freeze-time: 5 sec Buy-time: 20 sec Friendly Fire: On\r\n\r\nStarting money: 16000$.Rules:\r\n\r\n-Players must be present in the tournament area with the whole team at the notifications schedule. Players are advised to be present a few minutes before the schedule to avoid any unpredictable delay. If the team is not present at the notification schedule, they shall be disqualified.-Teams will be given 1 minutes to configure their settings and after that use of console or change in settings will be strictly prohibited.-The seating arrangement is to the discretion of the tournament officials.-Players are allowed to bring their own mouse and headphones. Headphones will not be provided by the committee.-If one of the players is disconnected or crashed, he must come back in to the game as soon as possible and the round will be restarted. The team should be of 5 members and no change of players in the team is allowed after they have played their first match.-Player can use their own USB mouse.\r\n",
-				"teamsize": "5",
-				"date": "7th March 2017",
-				"time": "12:00 to 5:00 pm",
-				"venue": "Lab 5",
-				"fees": "150/- per team",
-				"contact": "Binit Gajera(Mobile No. : - 9714983493 Mail ids: - binit_gajera@yahoo.com)"
+   "technical":{
+      "day1":{
+         "name":"Day 1",
+         "tag":"Twin Day",
+         "description":"Twinning is the new cool ..! Isn t it ? On this day fulfill your wish to have a twin. Pick the same outfit, hairstyle, accessories and whatever you want and be the doppelgangers ..!!",
+         "totalevents":5,
+         "fifth":{
+            "name":"Hunt Mania",
+            "tagline":"Be Ready To Hunt ..!",
+            "description":"3 Persons will be Hunting.\r\nThere will be three rounds in the event.\r\nRound 1 : Twisted Scavengers Hunt\r\n(Round Head : Pranjali Gupta - 8000115736)\r\nEach team will be given a clue. After solving a clue it will lead them to a person, who will give them a task to perform. On the basis of the task marks will be given to each team.\r\nElimination will be done on the marks obtained by each team.\r\nSelected team will be eligible for next round.\r\n\r\nRound 2 : Mock CID\r\n(Round Head : Kalind Mehta - 9426427989)\r\nIn this round there will be 2 tasks.\r\nTask 1 is pen-paper based, where team will be given a question paper. They will have to solve questions related to crime mysteries in the given time i.e. 30 minutes.\r\nTask 2 is crime scene based, where team will be given a clue. They will have to solve clue which will lead them to crime site, and will have to find criminal based on scene in the given time i.e. 30 minutes.\r\nAs per choice of team, either 1 or 2 member(s) of the team will go for Task 1 and remaining members of the team will go for Task 2 simultaneously as per given above. If any members of the team will be free after completing their respective task, they can help to other members of the team.\r\nwill be given to the team on the basis of their performance in both the rounds. Eliminations Marks will be done on the basis of marks.\r\nRound 3 :   The Final Hunt\r\n(Round Heads : Dhruvisha Darji - 9924913617 &amp; Urvish Vasani &#8212; 9638134188)\r\nIn this round there will be 2 tasks.\r\n\r\nAs per choice of team, either 1 or 2 member(s) of the team will go for Task 1 and remaining members of the team will go for Task 2 simultaneously as per given above. If any members of the team will be free after completing their respective task, they can help to other members of the team.\r\n\r\nTask 1 (Burst, Find &amp; Take a Selfie)\r\nAll the participants who are qualified from second round can take part in this round.In this round participants has to burst the balloon and recognize the logo.If the logo  will be  recognized correctly then they have to take selfie with the object written behind logo.\r\n\r\nTask 2 (Surprise round)\r\n????\r\nMarks will be given to the team on the basis of their performance in both the rounds.  Team getting highest marks will be rewarded as winner.",
+            "rules":"",
+            "teamsize":"3 per team",
+            "date":"6\/3\/2017",
+            "time":"9:00 AM onwards",
+            "venue":"",
+            "fees":"90\/- per team",
+            "contact":"Kalind Mehta(9426427989)"
+         },
+         "second":{
+            "name":"DDU Art Contest",
+            "tagline":"&#8220;Creativity takes courage, if you have it then show it.&#8221;",
+            "description":"Show your creativity like Rangoli making, Painting, Sketching, Tattoo Making, Sand art,\r\nFinger painting, etc. based on the theme INCREDIBLE INDIA. Creativity and Opportunity is In the air so take it in and do you thing. \r\n",
+            "rules":"Rules of event \/event description in brief:-\r\n&#8220;Creativity takes courage, if you have it then show it.&#8221;\r\n\tShow your creativity like Rangoli making, Painting, Sketching, Tattoo Making, Sand art,\r\nFinger painting, etc. based on the theme INCREDIBLE INDIA. Creativity and Opportunity is \r\nIn the air so take it in and do you thing. \r\nRULES:\t1- All the material required for any art skill is to be brought by the students themselves.\r\n2- Reference for any art is not allowed. So no images references or pictures will be allowed to be brought during the event.\r\n3- Theme is based on INCREDIBLE INDIA so show your art through this theme.\r\n\r\nDimensions: Rangoli making\/Sand art 1.5m*1.5m\r\n\r\nPainting\/Finger painting- A2 size sheet\r\nSketching- A3 size \r\n",
+            "teamsize":"",
+            "date":"6th March 2017",
+            "time":"1 :00 pm  onwards",
+            "venue":"Central Foyer",
+            "fees":"Rs. 20",
+            "contact":"Shlok Jethwa: Contact no- 8511151023\r\n\r\nDhrumin Ranoliya: Contact no- 8866615644 \r\n"
+         },
+         "third":{
+            "name":"BEG BORROW STEAL",
+            "tagline":"",
+            "description":"1. In first round , list of items will be provided to teams and that teams are required to collect that items by begging , borrowing and stealing from college campus. then according to collection of items points will be given and top 10 teams will enter in next round.\r\n2. In second round, virtual money will be provided to teams and they have to solve clues but for getting clues they have to buy an item with the help of that virtual money and after that only they will get the clue. At last after considering all perspective winner will be decided.\r\n",
+            "rules":"1. Participants can beg and borrow enlisted items only from the college campus.\r\n2. If any team is found that any kind of cheating is done ,it will directly lead to disqualification.\r\n",
+            "teamsize":"2",
+            "date":"6th March 2017",
+            "time":"12:00 pm onwards",
+            "venue":"ClassRoom -7,8",
+            "fees":"Rs 50\/- per team",
+            "contact":" parthiv shah (9408050657) "
+         },
+         "forth":{
+            "name":"Model your imagination",
+            "tagline":"",
+            "description":"Round 1: To built model from ice cream sticks&#8230;\r\nRound 2 : (surprise round) participants will be given 30 minutes for collecting junk from the college, next 30 mins is for building a working product\r\n",
+            "rules":"Rules for Round 1: The participants will be provided the ice cream sticks(100-150) and glue&#8230;the participants will be given 45 minutes to built their imagination..\r\nSelections criteria: to qualify for next round a judges panel will decide the model as per the creativity uniqueness and originality..\r\n\r\nRules for Round 2 : (surprise round) participants will be given 30 minutes for collecting junk from the college, next 30 mins is for building a working product&#8230;..\r\nRules: The participants have to search for junk around the college premicies and bring the collected junk to the venue if the collected material is improper it will be removed and only the junk items will be approved then there will be built time allocated to them..\r\n\r\nWinner: will be decided by judges  \r\n",
+            "teamsize":"2 (Min)- 3 (Max)",
+            "date":"6th March 2017",
+            "time":"1:00 pm onwards",
+            "venue":"CF",
+            "fees":"Rs 20\/- per person",
+            "contact":"Charmy Patel - 9574954896"
+         },
+         "first": {
+				"id": "",
+				"name": "IPL AUCTION",
+				"tagline": "\"Bid for Your Dream Team ..!!\"",
+				"description": "Buy your Dream team, and build it on your Own.<br>Your Price, Your Way.",
+				"rules": "<b>Round 1:</b>   Participants will buy any Team according to their Budget (with Real Money) in Team Auction.<br><b>Round 2:</b> Every Team Owner will buy the Players according to FIX Budget given by us (Virtual Money) & they   have follow    some Rules.<br><Br><b>RULES:</b><br> 1. 15 Players are Compulsory in each team<br>2. 6 Batsman, 5 Bowlers, 4 All-rounder.<br>3. Credits (points) of All Players are fully dependent on their ICC Ranking & Current Form.<br>4. Team which will buy the players with high credits will declare as winner IPL Team.<br>5. The Base Price of each Team is 500/-.",
+				"teamsize": "1 (Individual) or 2",
+				"date":"6th March 2016",
+				"time": "2:00 pm onwards",
+				"venue": "Class room (no. 6)",
+				"fees": "20/- per team",
+				"contact": "Ashish Kathiriya (6th sem)<br>ashishkathiriya46@gmail.com<br>9879750491<br><Br>Ronish Jariwala (4th sem)<br>Ronishjariwala@gmail.com<br>9998876645"
 			}
-		},
-		"it": {
-			"name": "Information Technology ",
-			"tag": "Tech-crusade",
-			"totalevents": 4,
-			"first": {
-				"name": "Code Crunch",
-				"tagline": "Talk is cheap, show me the code",
-				"description": "The main motive of a program is to satisfy the intentions of the user. If you think your code can satisfy our intentions, you have entered the right place. And as someone has said “Give someone a program, frustrate him for a day. Teach someone to program; frustrate him/her for lifetime”. If you have learnt to get frustrated for a lifetime, get frustrated for a day then.",
-				"rules": "Round 1: Elimination Round (Using Pen and Paper)\r\nEach participant has to solve a question paper having basic C or C++ or logic questions involving finding and resolving errors, finding outputs of given programs, etc. The qualifying participants will be selected based on ranking or cut-off marks. Maximum 20 participants will enter into Round 2.\r\nTime Duration: 60 Minutes\r\n\r\nRound 2: Moderate Programming Skills (Using Computer)\r\nThis round has a set of programming problems that the participant is expected to solve (design an algorithm and implement it in C or C++) as many as possible. Maximum 20 participants will enter into Round 2.\r\n\r\nTime Duration: 60 Minutes\r\n\r\nRules: \r\n1.The person will be free to choose their development tools (Turbo C++ in Windows or gcc/g++ in Linux).\r\n2.Round 1 will have many questions which need to be attempted in 60 minutes. Solve as many questions as you can. Maximum of 20 teams move on to the next round.\r\n3.For Round 2, the teams’ ranking will be decided on the basis of the no of problems correctly solved in the time limit. \r\n4.Teams can use paper and pen to do calculations.\r\n5.The organizing committee reserves right for any change/addition in rules.\r\n",
-				"teamsize": "1 member only",
-				"date": " 9th March 2017",
-				"time": " Round 1 : 12:30 to 01:00 PM\r\nRound 2 : 3:00 to 4:00 PM",
-				"venue": "Round 1 : CR No. 5\r\nRound 2 : IT Lab 2",
-				"fees": "Rs.30",
-				"contact": "Keyur Dhanesha   Mob. No : 9409430444  E-mail: kd1407@yahoo.com  \r\nJay Desai\t Mob. No : 8490885794\tE-mail : d08jay@gmail.com\r\n\r\n"
-			},
-			"second": {
-				"name": "Circulorum-en-tech",
-				"tagline": "Time to confer",
-				"description": "For those who love to “prove their point”, get into this technical discourse.\r\nWe await your point form the treasure of your technical knowledge. Be assertive, be quick. Don’t meander; it’s time to ‘prove your point.",
-				"rules": "Round 1: Elimination Round\r\nThis round will select 5 teams based on the activity given to teams. The activity would involve testing of technical thinking and presentation skill.\r\n\r\nTime Duration: 45 Minutes\r\n\r\n\r\nRound 2: Technical Group Discussion\r\nIn this round the teams would be allocated a technical topic or technical challenge. They would be allocated 10 minutes to think and make points on the same. After 10 minutes the discussion on that topic shall began.  \r\n\r\nTime Duration: 30 Minutes for actual discussion\r\n\r\n\r\nRules:\r\n1.Use of only English language is allowed during technical discussion.\r\n2.While presenting ideas or doing discussion, the team members must use polite, formal, non-offensive, and non-abusive language/tone/gestures.\r\n3.The organizing committee reserves right for any change/addition in rules.  \r\n",
-				"teamsize": "Exactly two members ",
-				"date": " 9 March 2017",
-				"time": " Round 1 : 11:00 to 12:00 PM\r\nRound 2 : 1:30 to 2:30 PM\r\n",
-				"venue": " Round 1 : IT LAB1 IT LAB2\r\n Round 2 : IT Lab 1",
-				"fees": "Rs. 50",
-				"contact": "Vivek Patel:<br>Mob No : 8230669778 <br>E-mail: vivek.p.ptl@gmail.com\r\nSrujan Shah <br>Mob No : 9601977376  E-mail:shahsrujan@gmail.com\r\n\r\n"
-			},
-			"third": {
-				"name": "Google-de-scrutiny",
-				"tagline": "Entangled in the web",
-				"description": "Have you ever gone beyond the first page of “Google”. If you have the tactics to deal with the world of“google”, take a deeper dive. Come forward to face thunderlying enigma of Google. Scratch your brains to answer the already answered stuff.",
-				"rules": "Round 1: Elimination Round (Using Computer and Internet)\r\nEach participant has to solve a set of internet search tasks. The qualifying participants will be selected based on the number of correctly solved search tasks. Maximum 12 Teams will enter into Round 2.\r\n\r\nTime Duration: 30 Minutes\r\n\r\nRound 2: Expert Searching Skills (Using Computer and Internet)\r\nThis round has a set of internet search tasks that will require expert search skill in order to retrieve asked information. \r\n\r\nTime Duration: 45 Minutes\r\n\r\nRules:\r\n1. Only 1 member per team.\r\n2. If in case of any tie, Tie-breakers shall be used.\r\n3. Internet connection will be provided to the participants during both the rounds.\r\n4. The organizing committee reserves right for any change/addition in rules.",
-				"teamsize": "1 member",
-				"date": "8 March 2017",
-				"time": "Round 1 : 1:00 to 1:30 PM\r\nRound 2 : 2:15 to 3:00 PM",
-				"venue": " Google-de-scrutiny (R-1) : IT Dept. SW Lab\r\nGoogle-de-scrutiny (R-2) : IT Dept., Lab-2\r\n\r\n",
-				"fees": "Rs. 30",
-				"contact": "Harshit Rathod : Mob no : 8200664810 Email : hrharshit27@gmail.com\r\nVrund Patel  Mob No :  7600487027 E-mail : pvrud32@gmail.com\r\n\r\n"
-			},
-			"forth": {
-				"name": "FIFA INTERACTIVE TOURNAMENT",
-				"tagline": "Your only goal - &quot;Qualify&quot;.",
-				"description": "Some people say Football is about Life &amp; Death,I Assure you it is much more than that!\r\nSo, get on these laptops and prove your gaming skills in the battle of  FIFA every football fan wishes to play.",
-				"rules": "All Rounds will be eliminatory.\r\n1. No. of rounds will be according to the amount of entries received.\r\n2. Each Rounds will have 2 players Playing Against Each other.\r\n3. The Player can choose between keyboard &amp; controller to play the game.",
-				"teamsize": "1 member only",
-				"date": " 8 March 2017",
-				"time": "10:00 to 12:00 PM ",
-				"venue": " IT Mtech Lab.",
-				"fees": "30/- per person.",
-				"contact": "Parth Champ<br> Mob No : 8866777358<br> E-mail: parthchamp169@gmail.com\r\nKishan Upadhyay<br> Mob No : 9426533497<br> E-mail : kishan.u1996@gmail.com"
-			}
-		},
-		"mba": {
-			"name": "MBA",
-			"tag": "Bizz Brainz",
-			"totalevents": 5,
-			"first": {
-				"name": " KAUN BANEGA MANAGER",
-				"tagline": "",
-				"description": "Registration fee: Rs. 100 per head \r\nFormal dress code.\r\nPreliminary rounds will be conducted on the same day.\r\nResume must be sent on or before March 5, 2017,  through mail on shah.hardik0701@gmail.com \r\nThe subject of the e-mail should be BEST MANAGER\r\nThe Best Manager will be carried in different rounds and will be conducted throughout the day at regular intervals.\r\nThe proposed rounds for the KAUN BANEGA MANAGER will be as follows:\r\na) Presentation on the given case study, which will be common for all. Presentation time 5-6 mins.\r\nb) Numerical aptitude test.\r\nc) Interpretation of the financial statements of different companies.\r\nd) Panel interview. e) stress interview\r\nGrand total will be calculated of the finalist and one who prevail the top of the list will be the Best Manager.",
-				"rules": "",
-				"teamsize": "",
-				"date": "",
-				"time": "",
-				"venue": "",
-				"fees": "",
-				"contact": ""
-			},
-			"second": {
-				"name": "BUSINESS MODEL",
-				"tagline": "",
-				"description": "Registration fee: Rs. 50 per head \r\nBusiness plans may be submitted by individuals or by teams. \r\nThere must not be more than 4 participants in a team. \r\nExecutive summary, containing the expansion of concepts outlined must be sent through-mail on shah.hardik0701@gmail.com on or before March 5, 2017 and the selected plans will be intimated through e-mail.\r\nThe subject of the e-mail should be BPLAN\r\nTeams should bring soft copy in CD and Hard copy while attending competition.\r\nTeams must come with their proposed model while attending competition for the judgment and explanation purpose.\r\nFinal-round submission will be judged according to the following criteria: \r\nIs the business financially feasible?\r\nQuality of products, services and/or solutions\r\nMarket opportunities and competition\r\nTeam qualifications\r\nOverall attractiveness of the venture",
-				"rules": "",
-				"teamsize": "",
-				"date": "",
-				"time": "",
-				"venue": "",
-				"fees": "",
-				"contact": ""
-			},
-			"third": {
-				"name": "MANAGEMENT QUIZ",
-				"tagline": "",
-				"description": "Registration fee: 100 per team \r\nTwo participants per team\r\nTeams should get registered before OR on the spot on the day of the event\r\nJudges decisions are ultimate.\r\nTeams should maintain dignity with in the event hall.\r\nThe participants shall not be allowed to use mobile or other electronic instruments.\r\nThe questions shall be in the form of multiple choice, True/False statement, Specific-answer question etc.\r\nAudience shall not give any hints or clues to the competitors.\r\nThe whole event will be dividing in the three rounds.",
-				"rules": "",
-				"teamsize": "",
-				"date": "",
-				"time": "",
-				"venue": "",
-				"fees": "",
-				"contact": ""
-			},
-			"forth": {
-				"name": "MOVIE MAKING",
-				"tagline": "",
-				"description": "Registration fee: Rs. 100 per team \r\nTwo or more participants in a team\r\nThe themes for the competition are (I) Social Issue (II) Go Green (III) Lesson from Management\r\nTeams should get registered before March 5, 2017.\r\nJury decisions are  ultimate\r\nTeams should maintain dignity with in the event hall.\r\nEach participant will be allotted 10 minutes to display their movie.\r\nAny part of the movie should not breach the decorum of the institute.",
-				"rules": "",
-				"teamsize": "",
-				"date": "",
-				"time": "",
-				"venue": "",
-				"fees": "",
-				"contact": ""
-			},
-			"fifth": {
-				"name": "FILMOTSAV",
-				"tagline": "",
-				"description": "Registration fee: Rs. 70 per head\r\nEach participant is required to carry a pen and note pad with them.\r\nThere will be a general discussion on the film between the participants.\r\nPRODUCT LAUNCH:-\r\nThe first round will be elimination round wherein a panel of judges will evaluate all the submitted entries. The team needs to have minimum 2 and maximum 4 participants.\r\nFor preliminary round, participants need to select a product or services which are innovative and cater to a new market need which is not met as of now.\r\nFor the selected product or services, team needs to submit PPT with maximum 20 slides.\r\nThe PPTs are required to mail by March 5, 2017 on shah.hardik0701@gmail.com .\r\nFor the elimination round, 5 minutes will be given to each team for presentation and five best teams will be selected by panel of judges for final round.\r\nThe 3 selected teams will give the final presentation and that would be of 15 minutes followed by Questions-Answer of 5 minutes.\r\nTeam can include all the creative aspects required for a new product launch like tagline, slogan, ad copy, poster etc... for the final presentation.\r\nRegistration Fees Rs.100 per team.",
-				"rules": "",
-				"teamsize": "",
-				"date": "",
-				"time": "",
-				"venue": "",
-				"fees": "",
-				"contact": ""
-			}
-		},
-		"cl": {
-			"name": "Civil Engineering ",
-			"tag": "Creato",
-			"totalevents": 5,
-			"first": {
-				"name": "TECHNO CRANE",
-				"tagline": "",
-				"description": "Member have to make Crane Model from the Straw stick.",
-				"rules": "Round 1: Elimination Round \r\nThe Participant has to make crane model with in the required time limit.\r\nThe winning criteria or elimination criteria and tolerance of model will be discussed on event day. \r\n",
-				"teamsize": "3 members only",
-				"date": "7th March 2017",
-				"time": "10:00 to 12:00 PM",
-				"venue": "Old Civil Engg. Department",
-				"fees": "Rs. 150 (per Team)",
-				"contact": "Rahul Khatri <br>8866242032<br>8866242032rk@gmail.com"
-			},
-			"second": {
-				"name": "BRIDGE MANIA",
-				"tagline": "",
-				"description": "Member have to make Truss Bridge model from pop-stick or straw stick.",
-				"rules": "Round 1: Elimination Round \r\nThe Participant has to make Truss Bridge model with in the required time limit.\r\nThe winning criteria or elimination criteria and tolerance of model will be discussed on event day. \r\nRules: It is on the spot event Rule will be decided at the time of event.",
-				"teamsize": "3 members only",
-				"date": "7th March 2017",
-				"time": "3:00 to 5:00 PM",
-				"venue": "Old Civil Engg. Department",
-				"fees": "Rs. 150/-",
-				"contact": "Ketul Chaudhari<br>9687910465<br>ketu2201@gmail.com"
-			},
-			"third": {
-				"name": "Quiz Up",
-				"tagline": "",
-				"description": "General Quiz Competition",
-				"rules": "Round 1: Pen & Paper Round\r\nGENERAL TECHNICAL QUESTIONS\r\n\r\nRound 2: Buzzer Round\r\n            \r\nRound 3: Final Round\r\n\r\nTime Duration: 90 Minutes (minimum)\r\n\r\nRules: It is on the spot event Rule will be decided at the time of event.Participants are not allowed to use any study material.",
-				"teamsize": "3 members only.",
-				"date": "7th March 2017",
-				"time": "Round 1 : 12:15 to 12:45 PM   Round 2 : 1:15 to 1:45 PM Round 3  : 2:15 to 2:45 PM",
-				"venue": "Narayan Bhavan, Civil Engg. Drawing Hall.",
-				"fees": "Rs. 60",
-				"contact": "Akshar Barot<br> 9033456709<br> barotakshar24@gmail.com"
-			},
-			"forth": {
-				"name": "TECHNO BRIDGE",
-				"tagline": "",
-				"description": "Member have to create a bridge on software",
-				"rules": "Round 1: Elimination Round\r\nMember have to create a bridge on software with in required time. If member fail to do so will be eliminated.\r\n \t\r\nTime Duration: 45 Minutes (minimum)\r\n\r\n\r\nRules: It is on the spot event Rule will be decided at the time of event.\r\n",
-				"teamsize": "1 member only",
-				"date": "8th March 2017",
-				"time": "10:00 to 10:45 AM",
-				"venue": "Narayan Bhavan, Civil Engg. Drawing Hall.",
-				"fees": "Rs. 30",
-				"contact": "Meet Dave"
-			},
-			"fifth": {
-				"name": "TECH RITTORY",
-				"tagline": "",
-				"description": "Survey-based event",
-				"rules": "Round 1: Pen & Paper Round\r\nRound 2: Puzzle Round\r\nRound 3: Field Showdown\r\n \t\r\nTime Duration: 150 Minutes (minimum)\r\n",
-				"teamsize": "3 members only",
-				"date": "8th March 2017",
-				"time": "Round1 : 11:00 to 11:30 AM   Round 2 : 11:45 to 12:45 PM Round 3  : 1:15 to 2:15 PM",
-				"venue": "Round 1 : Narayan Bhavan, Civil Engg. Drawing Hall.   Round 2 : Campus  Round 3 : campus",
-				"fees": "120/- per team",
-				"contact": "Vinay Avani<br>9033318167<br>vinnyavani@gmail.com"
-			}
-		},
-		"ch": {
-			"name": "Chemical Engineering ",
-			"tag": "Collision",
-			"totalevents": 6,
-			"first": {
-				"name": "CHEM-COUPE",
-				"tagline": "Rule the Road!!",
-				"description": "Participants will have to make their own model car as per their design. There will be 3 attempts in a round. Best of 3 will be considered. Teams will then be required to mix the reactants in such proportions as to cover the chosen length. The closest distance among the three will be considered.",
-				"rules": "\r\n1.\tNo harmful chemicals and explosives are allowed.\r\n2.\tParticipants have to bring chemicals on their own.\r\n3.\tThe car must run with chemicals only. No other sources are allowed.\r\n4.\tCar should run on the provided track only. \r\n5.\tThe car will be disqualified in particular attempt if it overturns. \r\n6.\tNo size or shape restriction in the design of the car.\r\n",
-				"teamsize": "3 participants per team",
-				"date": "10th March 2017",
-				"time": "3:00 to 5:00 PM",
-				"venue": "Seminar Hall",
-				"fees": "50/- per team",
-				"contact": ""
-			},
-			"second": {
-				"name": "CHEM-ILLUSION",
-				"tagline": "Be the illusioner but with chemicals….",
-				"description": "This event aims at applying the basic knowledge of chemistry(Chemical reactions).\r\nParticipants have to perform magic using any chemical reaction. After performing their trick, participants must need to explain the mechanism behind the trick. Participants can perform as many tricks as they want. \r\n",
-				"rules": "1.\tSafety first. (Come with apron and safety shoes, Safety gloves will be provided.)\r\n2.\tHazardous or concentrated chemicals are not allowed.\r\n3.\tChemicals will not be provided.\r\n",
-				"teamsize": "Maximum 3 participants per team",
-				"date": "9th March 2017",
-				"time": "4:00 PM to 5:30 PM",
-				"venue": "CR-10",
-				"fees": "30/- per team",
-				"contact": ""
-			},
-			"third": {
-				"name": "CHEM-E-QUIZ",
-				"tagline": "Think Quick!",
-				"description": "This event aims at applying the general knowledge of Chemical engineering.",
-				"rules": "Rounds scheme:\r\nRound 1- Elimination Round\r\n•\tThe test consists of general chemical knowledge. 25 minutes will be given to complete the written test. Based on the score, participants will be selected for the next round.\r\nRound 2- Ultimate Round\r\n•\tThere will be maximum 5 teams. It consists of following segments:\r\n1.\tQuestions based on topics of choice\r\n2.\tLogical questions(how, why)\r\n3.\tBuzzer round\r\n4.\tRapid fire\r\nRules:\r\n1.\tParticipants will be provided rough paper.\r\n2.\tNo textbooks or references will be allowed.\r\n3.\tElimination criteria will be decided on the basis of the results.\r\n",
-				"teamsize": "2 participants per team",
-				"date": "9th March 2017",
-				"time": "Round 1: 9:30 to 10:30 AM  Round 2: 2:00 to 3:30 PM",
-				"venue": "Round 1: CR-11  Round 2: CR-10",
-				"fees": "50/-per team",
-				"contact": ""
-			},
-			"forth": {
-				"name": "EXPLOREREN",
-				"tagline": "Nothing weighs more than a secret",
-				"description": "This event aims at applying the knowledge of chemical technology and basic chemistry. ",
-				"rules": "Rounds scheme:\r\nThe event consists of two rounds:\r\n•\tFirst round is Treasure Hunt.\r\n•\tSecond round has two parts:\r\na.\tTo solve a crossword puzzle.\r\nb.\tFrom the answer of the crossword puzzle, detection of compound from the clues by smell.\r\nThe winner will be decided based on time and points.\r\nRules:\r\n1.\tMaximum 2 participants can form a team.\r\n2.\tParticipants will be provided rough sheet if required.\r\n3.\tElimination criteria will be decided on the basis of the results.\r\n",
-				"teamsize": "2 participants per team",
-				"date": "10th March 2017",
-				"time": "10:00 to 11:30 AM",
-				"venue": "CR-11",
-				"fees": "Rs. 50/- per team",
-				"contact": ""
-			},
-			"fifth": {
-				"name": "HYDROCAR",
-				"tagline": "Think Beyond!!!",
-				"description": "This techno event is basically interactive workshop session. It aims to up skill participants with the knowledge of designing a car that runs of Hydrogen Fuel cell. The entire procedure of assembling the components and basic idea of fuel cell will be conveyed to the participants. At the end of the session queries will be solved related to the workshop.",
-				"rules": "",
-				"teamsize": "",
-				"date": "10th March 2017",
-				"time": "12:30 to 2:30 PM\t",
-				"venue": "CR-10, 11\t",
-				"fees": "50/- per team",
-				"contact": ""
-			},
-			"sixth": {
-				"name": "TECHNOTALK",
-				"tagline": "",
-				"description": "Expert lectures (lectures will be delivered by experts from industries and academics)",
-				"rules": "",
-				"teamsize": "",
-				"date": "9th March,2017",
-				"time": "11:00 to 1:00 pm",
-				"venue": "MMH",
-				"fees": "50/- per head",
-				"contact": ""
-			}
-		},
-		"mh": {
-			"name": "Mechanical Engineering ",
-			"tag": "Dimensions",
-			"totalevents": 2,
-			"first": {
-				"name": "TECHPOST",
-				"tagline": "",
-				"description": "Tech Poster Presentation",
-				"rules": "1. The poster should be of size- 36 x 48 inches\r\n2. The presenters will get 10min to present their poster           after which there will be 5min of\r\n    Questions and answer with the judges.\r\n3. The text and illustrations must be clearly readable at a distance of three feet.\r\n4. The topic must be of a relevant engineering field.\r\n\r\n",
-				"teamsize": "2 members only",
-				"date": "7th March 2017",
-				"time": "11:00 to12:00 PM",
-				"venue": "Narayan Bhavan (MH Dept.)",
-				"fees": "Rs. 100",
-				"contact": "YASH PATEL<br> 9998084424<br> yashdpatel555@gmail.com"
-			},
-			"second": {
-				"name": "MOCKPLACEMENT",
-				"tagline": "",
-				"description": "Mock placement for the benefit of students.",
-				"rules": "*Round 1: Written Test (Technical & Aptitude)\r\nIn the written test round the participants must give a short written examination constituting  of technical and aptitude questions to test their mental ability. The top few scoring participants will be selected for the next round.  \r\n\r\nTime Duration: 09:30 A.M to 11:30 A.M\r\nRound 2: Group Discussion\r\nIn this round the selected participants will be placed in teams for a group discussion on a topic provided. This will test the communication skills and the ability of the student to participate in a group. Judges will select the best participants according to a list of criteria.\r\n\r\nTime Duration: 12:30P.M to 3:00 P.M\r\n\r\nRound 3: Personal Interview\r\nThe selected participants will now take part in a personal interview which simulates an interview during placements, testing the overall knowledge and confidence of the student.\r\nRULES : \r\n1. For a written test a cut off will be decided & on that basis, participants will be proceed         further for second round\r\n2. In G.D. the judging will be based on the communication skill, initiation ability, content.\r\n3. For P.I. the judging will be done by the judges or the interviewer.\r\n",
-				"teamsize": "No team. Individual entry",
-				"date": "7th March 2017",
-				"time": "09:30 to 5:00 PM",
-				"venue": "Round 1 Class No:36,37;  Round 2 and Round 3 in MH Dept., Narayan Bhavan",
-				"fees": "Rs. 50",
-				"contact": "SNEHANKIT THUMMER<br> 9825158769<br> snehankitthummer0077@gmail.com<br>"
-			}
-		},
-		"ic": {
-			"name": "Instrumentation And Control ",
-			"tag": "Instronics",
-			"totalevents": 3,
-			"first": {
-				"name": "Poster Presentation",
-				"tagline": "",
-				"description": "Basic Technical and General Knowledge Questions asked to improve I.Q. as well E.Q. level of Students.\r\nExpected strength/skill of participants: Innovative Ideas Representation",
-				"rules": "Round 1: Presentation of Poster & Question-Answer \r\n\r\nTime Duration:  Tentative 60 Minutes (for Event)\r\n\r\nRules:\r\n\r\nThe poster must include the following:\r\n•\tTitle \r\n•\tNames of author(s) and affiliated organization(s) \r\n•\tAbstract (brief summary of objectives, methods, results, and conclusions) \r\n•\tBackground Information\r\n•\tProject Objectives \r\n•\tMaterials and Methods\r\n•\tResults (tables, graphs, charts)\r\n•\tDiscussion of possible future directions\r\n",
-				"teamsize": "2 members only",
-				"date": "7th March 2017",
-				"time": "10:00 to 11:30 AM",
-				"venue": "Off MMH",
-				"fees": "Rs. 50",
-				"contact": "Airwadia Vivek A.\r\nPatel Kinjalkumar H.\r\nPatel Anal, Patel Nidhi"
-			},
-			"second": {
-				"name": "Techno Quiz",
-				"tagline": "",
-				"description": "Basic Technical and General Knowledge Questions will be asked in different rounds ",
-				"rules": "Round 1: Elimination Round\r\n\r\nWritten Test (Technical + General Knowledge) will be held \r\n\r\nTime Duration: 45 Minutes (for Event)\r\n\r\nRound 2: On Screen Question Answer Round\r\n\r\nTime Duration: Around 30 minutes \r\n\r\nRound 3: Rapid fire Round\r\n\r\nIn one minute ten or more questions would be asked to individual team. According to correct Answers, Points would be given. \r\n\r\nTime Duration: 1 minute/Team\r\n\r\nRules:\r\n1. Team members are not supposed to use mobile and/or calculators.\r\n",
-				"teamsize": "3 members only",
-				"date": "7th March 2017",
-				"time": "R-1: 2:30 to 3:15 PM  R-2: 3:30 to 4:00 PM  R-3: 4:15 to 4:45 PM",
-				"venue": "SEMINAR HALL.",
-				"fees": "Rs. 50",
-				"contact": "Parth Varmora\r\nSuvagiya Kishan\r\nShah Romanch\r\nRishi Sheth"
-			},
-			"third": {
-				"name": "Web Hunt",
-				"tagline": "",
-				"description": "On the spot topic would be given. Students are supposed to find information regarding the topic using internet connectivity and make effective presentation in power point and represent the same.",
-				"rules": "Round 1: Hunting information regarding given topic\r\n\r\nTime Duration: 45 Minutes (for Event)\r\n\r\nRound 2: Presentation\r\n\r\nTime Duration: Around 5 minutes Presentation + 2 minutes question Answer Session\r\n",
-				"teamsize": "2 members only",
-				"date": "7th March 2017",
-				"time": "R-1: 11:45  to 1:15 PM  R-2: 1:30 to 2:30 PM ",
-				"venue": "R-1: IC DEPT. TUTORIAL ROOM.  R-2: SEMINAR HALL. ",
-				"fees": "Rs. 50",
-				"contact": "Umang Parmar\r\nShivang Mistry\r\nAnal Chokshi\r\nMohna Chattopadhayay\r\nDharav Modi"
-			}
-		},
-		"ec": {
-			"name": "Electronics And Communication ",
-			"tag": "Resonance",
-			"totalevents": 8,
-			"first": {
-				"name": "Buzz it to Quiz it",
-				"tagline": "",
-				"description": "Event based on basic Electrical and Electronic concepts and mental ability along with testing of circuit designing and equipment usage",
-				"rules": "Round 1 (Qualifier Round): Circuit Implementation\r\nEach team has to implement a buzzer circuit on breadboard as per the manual provided on the spot. Teams successfully completing this task in minimum duration with at most accuracy will be selected for the next round. \r\nIt will also include a surprise bumper round based on the teams’ performance and risk taking ability.\r\nRound 2 (Final Round): Quiz\r\nThis round consists of Basic Technical and calculative Quiz. Buzzer made by the qualifying teams of previous round will be made into use for this round. Winning Teams will be selected as per the scores acquired and final judgment of authorities. This round will be abide by time constraint and negative points. Bonus points will be provided for every passed question answered. \r\nIn case of clashes like multiple teams hitting the buzzers at same instant, their respective answers shall be collected without disclosure, and shall be compared with the correct answers. The round may also implement the tie breaker whenever needed.  \r\nRules:\r\n1. Students must bring DMM, Breadboard< Connecting wires, etc.\r\n2. Necessary components ie. Resistors, capacitors and lab access shall be provided by the organizers.\r\n3. A team must consist of members not more than 2.\r\n4. Teams not conducting the basic ethics and harming the competitiveness are subject to immediate disqualification.\r\n",
-				"teamsize": "",
-				"date": "7th March 2017",
-				"time": "R-1\t9:00 to 11:00 AM R-2 11:00 to 12:00 PM",
-				"venue": "",
-				"fees": "",
-				"contact": ""
-			},
-			"second": {
-				"name": "ChargeOn (Workshop)",
-				"tagline": "",
-				"description": "ChargeOn is the kick start workshop for 1st and 2nd year students who are interested in doing projects. The workshop will be conducted in 3 phases as described below:\r\n\r\nPhase 1:\r\n•\tBasic introduction about how to approach the project and how to plan timing for doing specific tasks involved within it as they would not have done work on real life projects until now.\r\n•\tBrief description of all the components included in the project along with how to read important things from datasheet will be taught.\r\n•\tCircuit diagram of the project will be explained thoroughly by senior student coordinators.\r\nPhase 2:\r\n•\tKit of all the components will be provided after which each team has to design power supply based on the circuit diagram explained in phase 1.\r\nPhase 3:\r\n•\tFuture guidance on what projects students can make during vacation period will be given based on arduino and micro-controllers depending upon their interests in the particular field.\r\n",
-				"rules": "",
-				"teamsize": "2",
-				"date": "7th March 2017",
-				"time": "9:00 to 12:00 AM",
-				"venue": "",
-				"fees": "Rs.200/- per team",
-				"contact": "Jay Parekh (8160605393)\r\nSavan Patel (8490800763)"
-			},
-			"third": {
-				"name": "Elite Talks",
-				"tagline": "",
-				"description": "Event is based on technical and non-technical know how on a particular topic. They have to choose any one from given two topics written in chits on the spot and they need to speak for technically and non-technically for at least one minute on that topic. This will be elimination round.",
-				"rules": "Round 1: Describe topic technically and non-technically\r\nIn this round, the team of two students has to speak at least for one minute technically and one minute non-technically on chosen topic. Based on their speech they will be given points. After that they need to answer the questions asked by audience. \r\nAudience is allowed to ask at max 3 questions. Extra points will be awarded to the team by giving right answer and if team will not be able to answer, or gives wrong answer then points will be deducted for that team.\r\nRound 2 (Final Round): Speak on solved puzzle for at least 3 minutes\r\nIn this round team has to select one chit and they need to solve the puzzle in that chit after solving the puzzle they will get answer of scientist name and then they need to speak about that scientist for at least 3 minutes. They can speak about scientist’s life, achievements, given theories, proofs and whatever things they know about them. Winner team will be decided based on content of their speech.  \r\nRules:\r\n1.\tEach member has to speak at least one minute compulsory.\r\n2.\tIn round 1 - they will be given maximum 20 points based on their speech , and if they give correct answer on questions asked by audience then 3 points will be rewarded else 2 points will be deducted.\r\n3.\tIn round 2 - they need to speak for at least 3 minutes.\r\n",
-				"teamsize": "2",
-				"date": "6th March 2017",
-				"time": "Round 1 -9:00 to 10:00 AM Round 2- 11:00 to 12:00 PM",
-				"venue": "",
-				"fees": "40/- per team",
-				"contact": "Parthit Sardhara (9624789439)\r\nEarnest Vakeriya (9408910948)\r\n"
-			},
-			"forth": {
-				"name": "Poignant Presentation",
-				"tagline": "",
-				"description": "As a technical student, one has to demonstrate their technical idea with its hardware project in details (Complete System in working condition) with presentation and its practical application(s) and also they can represent the technical term in such a way that any non-technical person can understand easily. Yes, it’s the time now to unleash your creativity. Show your intellect, your unique edge and sense for your favorite topic. i.e. design the hardware model & relevant posters/ animations/ banners/ videos/ presentation. \r\n\r\nYour idea, your imagination, your way of presentation and your resources. The real battlefield competition for your creativity. One can bring their own resources as per their idea requirements.\r\n \r\nRounds scheme \r\nTeam has to explain the concept or technology with their presentation and aids to visiting group of students.\r\n\r\nThis event will be represented as a project exhibition in which all the participants are going to represent their project. In this exhibition all the respected faculty members and the students (especially 1st year) will be invited. A paper will be given to each visiting student/ group to give the marks to the participants who are demonstrating their project.After the flow of visiting student/group respected faculty will give their opinion and advice to the participant’s about their project.  \r\n",
-				"rules": "1.\tMax. Time for a single presentation:  Not more than 6 minutes.\r\n2.\tThe designed hardware should be a complete system (i.e. only a block of a system shall lead to disqualification from the event).\r\n3.\tThe participants should be prepared for Q&A\r\n",
-				"teamsize": "Max 2",
-				"date": "7th March 2017",
-				"time": "1:00 to 3:00 PM",
-				"venue": "",
-				"fees": "Rs 50/- per team",
-				"contact": "Siddharth Patel (8460497794)\r\nAkshay Sanghani(8758197594)\r\n"
-			},
-			"fifth": {
-				"name": "Q’uestionario",
-				"tagline": "Here Everyone Is A Winner",
-				"description": "Event based on general knowledge, current affairs & some basic technical knowledge of electronics \r\n\r\nNo. of Rounds: 2\r\nRounds Scheme:\r\nRound 1 (Qualifier Round): General Knowledge & Current Affairs\r\nQuestions would be asked about the general knowledge & current affair. Each team would be given a time limit of 30 seconds for each question which and they have to write their team name and answer on a chit provided by the coordinators .Then they have to put their chit in the jar/box in the given time. The team which will put their chit first in the jar/box will be given the first preference. The top 5 teams will be qualified for the next round.\r\nRound 2 (Final Round): Tech & Non Tech\r\nThis round will test both technical and non-technical knowledge of the qualifiers of the round 1.  The top 3 teams of second round will be winner. In this round the teams will be given the time limit of 30 seconds. \r\n",
-				"rules": "1.\tA team should have at least one pen\r\n2.\tA team must consist of members not more than 4.\r\n3.\tTeams not conducting the basic ethics and harming the competitiveness are subject to immediate disqualification.\r\n4.\tThe decision of the coordinators  would be the final decision and non- questionable\r\n",
-				"teamsize": "4",
-				"date": "7th March 2017",
-				"time": "1:00 to 3:00 PM",
-				"venue": "",
-				"fees": "Rs. 100/- per team",
-				"contact": "Pratik Varmora (9978373842)\r\nAarif Shaikh (8866080846)\r\n"
-			},
-			"sixth": {
-				"name": "Resistance Rapture",
-				"tagline": "",
-				"description": "Event based on Basic Electrical & Electronics Engg.  And Electronics Principles\r\n\r\nRounds scheme:\r\nRound 1: This round consist of 3 task [Elimination Round]\r\nTask 1: 5 questions will be asked in succession and the participants have to answer  the question in ‘yes’ or ‘no’ quickly. The question will not be repeated second time.  \r\nTask 2: This task will include identification of symbols (logo). Cards with technical symbols will be given to the participants and they have to identify 3 cards within 30 seconds.\r\nTask 3: This task contains 10 multiple choice question on paper. Time limit is 15 minute.\r\nTime Duration: 2 hour \r\n\r\nRound 2: This round consist of 3 task [for the qualified participants from the first round]\r\nTask 1: The participants will be given few values of resistances. They will be given some commonly used resistors which they have to identify using the color coding. Using these they have to design simple networks such that the equivalent resistance is equal to the given resistances values. Time limit is 15 minutes.\r\nTask 2: A network circuit diagram will be given to the participants and they have to solve the network diagram using series, parallel and star-delta method(The required equations will be provided). Time limit is 20 minutes.\r\nTask 3: Participants who have solved network circuit diagram correctly will be allowed to implement it on the bread board.\r\nTime Duration: 1 hour 30 minutes\r\n",
-				"rules": "1.\tStudents shall bring DMM, Connecting Wires & bread board etc…\r\n2.\tNecessary resistors & Lab facility will be provided by organizing Department.\r\n3.\tFor any kind of rude behavior, team will be disqualified.\r\n",
-				"teamsize": "2",
-				"date": "6th March 2017",
-				"time": "Round 1- 12:00 to 3:00 PM Round 2- 3:00 to 5:00 PM",
-				"venue": "",
-				"fees": "Rs. 40/- per team",
-				"contact": "Mihir Vaghela(9898847905)\r\nZalak Patel (7779034108)\r\n"
-			},
-			"seventh": {
-				"name": "Simulation Contest (MATLAB, Scilab, Quartus)",
-				"tagline": "",
-				"description": "Event based on debugging, coding and simulating using any simulator tool.\r\n\r\nRounds Scheme:\r\nRound 1 (Elimination Round): Debugging \r\nEach team is required to solve the errors in the given code and then explain the objective of the code.\r\nRound 2 (Final Round): Simulation \r\nThe teams have to design a program code and simulate it. The objective of the question program will be provided beforehand (one day before the round 2,after the declaration of the teams selected for the next round). If the program is perfectly simulated, modifications will be given.\r\n",
-				"rules": "1.\t30 minutes will be allotted for debugging the code.\r\n2.\t10 teams will be selected for the second round. \r\n3.\t30 minutes will be provided to perform the modifications in the program.\r\n",
-				"teamsize": "2",
-				"date": "Round 1- 6th March 2017 Round 2- 7th March 2017",
-				"time": "Round 1- 2:00 to 3:00 PM Round 2- 12:00 to 1:00 PM",
-				"venue": "",
-				"fees": "Rs. 50/- per team",
-				"contact": "Meetali Patel (9687627496)\r\nKeyur Rakholiya (7567925394)\r\n"
-			},
-			"eighth": {
-				"name": "Tech Genesis",
-				"tagline": "",
-				"description": "Round Schemes:\r\n\r\nRound 1: This round will check the participants’ problem solving skills and also tap the players’ logical reasoning abilities. This test will consist of a crossword puzzle based on popular taglines and other advertisement related questions. This will be followed by a jumbled puzzle. Out of the teams who have registered, only 10 will be allowed to go for the next round. This round will be completed within 30 mins.\r\n\r\nRound 2: This round is divided into 2 parts. The first part is a technical quiz consisting of MCQ’s and other short questions based on Boolean reduction, digital electronics and network analysis. After this the team will be provided with a comprehensive passage followed by 10 questions. The passage will consists of several encoded words and phrases that have to be deciphered by the participants with the help of the key provided. The result of this round will be used to shortlist 5 teams for the final round. Time limit for this round will be 1 hour.\r\n\r\nRound 3: The teams which reach this round will get the opportunity to take part in an auction to buy various virtual electronic goods kept on sale. The amount of virtual money given to them will be based on their performance in the previous round. The goods they purchase will have to be used to create an electronic product or model which they have to successfully market and advertise. Bidding will take 30 mins followed by 45 mins for making a model and preparing a presentation. Each team will get 5 mins to present their model and advertisement to the judges\r\n",
-				"rules": "",
-				"teamsize": "4",
-				"date": "6th March 2017",
-				"time": "Round 1- 10:00 to 11:00 AM Round 2- 12:00 to 1:00 PM Round 3- 3:00 to 5:00 PM",
-				"venue": "",
-				"fees": "Rs. 60/- per team",
-				"contact": "Yash Patel (9924883289)\r\nSneha Thomas (9712913848)\r\n"
-			}
-		},
-		"mca": {
-			"name": "MCA ",
-			"tag": "Techno Kshetra",
-			"totalevents": 4,
-			"first": {
-				"name": "Act-a-Tech",
-				"tagline": "",
-				"description": "One member is given one technical word. He tries to convey this word to his team members by enacting it.",
-				"rules": "ROUND 1:\r\n1.\tEach team would be given a technical term with one person acting and the other two guessing the right term.\r\n2.\tThe technical term may include following: Any technical jargon, any company/website/software logo, or software name etc.\r\n3.\tThe time limit will be 60 seconds.\r\nROUND 2:\r\n1.\tOne of the team members will be given a technical term. The other two persons can ask maximum 10 questions to guess the term.\r\n2.\tThe team members cannot ask direct questions.\r\n3.\tThe person given the term can only answer in Yes/No.\r\n4.\tThe time limit will be 60 seconds.\r\nROUND 3:\r\n1.\tEach team would be given 10 technical terms to enact.\r\n2.\tThe team successfully identifying maximum terms in 60 seconds will clearly win.\r\nRules:\r\n1.\tThe team should constitute of 3 members.\r\n2.\tTerms/words will be related to computer science. \r\n3.\tLip movement is not allowed-only hand movement should be there.\r\n4.\tNo lettering, no prompting, no props allowed.\r\n",
-				"teamsize": "3 members only",
-				"date": "8TH March 2017",
-				"time": "9:00 to 10.30AM",
-				"venue": "CR-27",
-				"fees": "Rs. 120/-",
-				"contact": "Himansu Panchal (MCA)<br> 7568916911<br> himanshu.pancha001@gmail.com"
-			},
-			"second": {
-				"name": "ImaJigsaw ",
-				"tagline": "",
-				"description": "Showing image parts in progressive manner and participants have to identify as fast as possible.",
-				"rules": "Round Details:\r\nRound - 1\r\nParticipants will be shown image related to the field of computer science, like, any hardware component, logo or well-known personality and they have to identify it. Correct Answer will give you 1 Point. The predefined amount of time will be given for each image.\r\n\r\nRound - 2\r\nIn the round 2, all qualified participants will be shown the Partial images. In some cases, Full image will be provided part by part. Each participant has to raise their Given Symbolic Number. Correct Answer will give you 2 Points.\r\nRules:\r\n1.\tParticipant has to raise the symbolic number to answer.\r\n2.\tParticipant who raise first will be given a chance to answer.\r\n3.\tIf tie, participants qualified to answer personally.\r\n4.\tPartial answer will not be considered.\r\n5.\tIn Case of any discrepancy, Event Coordinators decision will be taken as final.  \r\n",
-				"teamsize": "1 member",
-				"date": "8TH March 2017",
-				"time": "2:30 to 4:30 PM\t",
-				"venue": "Seminar Hall\t",
-				"fees": "Rs. 40",
-				"contact": "Prajapati Vishal (MCA)<br> 7405644080<br> vishalprajapati12796@gmail.com"
-			},
-			"third": {
-				"name": "TechHunt ",
-				"tagline": "",
-				"description": "Teams are required to move from place to place in order to get successive clues to be solved for next place. During the hunt there will be challenges in the form of given code on c and c++ to solve which should be done in least possible time so, as to maintain your pace.",
-				"rules": "Round Details: \r\n\r\n1.\tThere will be two rounds.\r\n2.\tFirst round will be elimination round.\r\n3.\tDuring the hunt there will be challenges in the form of code on c and c++ to solve, which should be done in least possible time so, as to maintain your pace.\r\n4.\tThere will be penalties for those teams which are not able to solve code clue.\r\n\r\nRules:\r\n1.\tParticipants should register in teams of maximum 3 persons.\r\n2.\tVarious clues have to be solved.\r\n3.\tGadgets are not allowed.\r\n",
-				"teamsize": "3 members",
-				"date": "8th March 2017",
-				"time": "11:00 to 1:00 PM\t",
-				"venue": "CR-27 & 28 and BCA & MCA Laboratories\t",
-				"fees": "Rs. 120/-",
-				"contact": "Thakkar Dhaval (MCA)<br> 8460212474<br> dhavalthakkar4995@gmail.com"
-			},
-			"forth": {
-				"name": "Gaming ",
-				"tagline": "",
-				"description": "Shoot out your brains and crush out your opponents!!!Enjoy the most exciting games ever… You can show your team spirit via Counter Strike Condition Zero and your individuality via Need for Speed Most Wanted, So let s get started.",
-				"rules": "Round Details:\r\nTeam Vs. Team [ Each Team having 4 Participants for CS & 1 Participants for NFS ] Number of Rounds will be decided only after receiving total number of teams registered.\r\n\r\nRules:\r\n1.\tSpot registration will be closed before 30 mins of the event.\r\n2.\tNo swapping or change of team members will be allowed.\r\n3.\tIf all the members of the team are not present then the registration of the team will be cancelled. They will be allowed to play with the available members of their team.\r\n4.\tCheating in any form will lead to (DQ).\r\n5.\tTeams are expected to report on time with their College Ids for the event. Late entry will also lead to (DQ).\r\n",
-				"teamsize": "NFS : 1 member Counter Strike : 4 members",
-				"date": "8th March 2017",
-				"time": "1:30 PM onwards\t\t",
-				"venue": "MCA/BCA Laboratories\t\t",
-				"fees": "Rs. 160 (CS) Rs. 40 (NFS)",
-				"contact": "Makvana Vinay(MCA)<br> 8490000156<br>"
-			}
-		}
-	}
+      },
+      "day3":{
+         "name":"Day 3",
+         "tag":"Executive day",
+         "description":"The corporate world is all about the correct outfit. Pick a shirt, a tie, a blazer or just suit-up! On this day dress up in a formal way and enter into the professional world.",
+         "totalevents":3,
+         "first":{
+            "name":"BOLLYBUZZ",
+            "tagline":"The show must go on",
+            "description":"There Will Be In Total  3 Rounds.\r\nRound 1:\r\n\t-Phase 1: Pen-Paper Test(Max.  Time -30 Mins)\r\n\t\tEvery Team Will Be Provided A Question Paper Consisting A Number Of Questions  Related To Bollywood Movies.\r\n\t-Phase 2:  Guess The Movie Song And Complete It\r\n\t\tParticipants  Will Be  Given Lyrics of Hindi songs In English. So, They Have To Guess The  Correct Name  Of The Song And Sing A Few Lines Of It.\r\nFor  Every Correct Answer  5  Points  Will Be Granted.\r\nFor Every Wrong Answer  5  Points Will Be Deducted.\r\nIf They Are Able To Recognize The Correct Movie Name  Extra 5 Points Will Be Granted.\r\nMarks From Phase 1 And Phase 2 Will Be Added ; Top 10 Teams Will Qualify For Round 2;\r\nRound 2:\r\n\tPictionary.\r\n\t-Depecting Movies\/Songs Via Pictures.\r\n\t-Picking Chits From The  Bowl.\r\n\t-Teams Can Challenge One Another.\r\nTop 4 Teams Will Qualify For Round 3.\r\nRound 3:\r\n\tBolly Quiz  At Center Foyer(Cf).\r\n\t-Various Questions Will Be Asked.",
+            "rules":"(1) Participants Can&#8217;t Use Google Or Any Resource To Answer The Questions.\r\n(2) Team Should Consist Of Maximum 3 Students.\r\n(3) There Will Be Total 3 Rounds And At The End, We Will Have A Winner And Runner-Up.\r\n(4) Participant  Found Cheating,Arguing With Co-Ordinator\/Volunteer Will  Be First Warned ,  But If He\/She  Still Repeats The Same Mistake  Then 5 Points  Will Be Deducted  And  Under  Extreme Conditions He\/She Would Be Disqualified.\r\n(5) The Decision Taken By The Co-Ordinater Will  Be Considered  Final In Case Of Any Dispute.",
+            "teamsize":"6 members",
+            "date":"08\/03\/2017",
+            "time":"11:00 onwards",
+            "venue":"",
+            "fees":"30\/- per team",
+            "contact":"VIDIT GANDHI (IT) :\r\nviditgandhi96@gmal.com\r\n9978099389"
+         },
+         "second":{
+            "name":"Words Worriers",
+            "tagline":"",
+            "description":"Round 1: the participants are suppose to take 5 random chits from bowl. The chit contains random words lie sky,man,water etc. participants have to create using these words. Team which frames best story in less time wins..participants will just have to write down the story..\r\nRules: mobile fones are not allowed&#8230;and\r\nRound 2: The participants will be given a product that they have to prepare ads for&#8230;&#8230;\r\nRules: ideas should be new and no internet copy paste..\r\nWinner: decided by judges panel",
+            "rules":"",
+            "teamsize":"2 to 3",
+            "date":"8th March 2016",
+            "time":"12:00 onwards",
+            "venue":"Class room no 7,8",
+            "fees":"20/- per head",
+            "contact":"Chirag Solanki(c)\r\nEmail - chirusolucky13@gmail.com\r\nMobile - 9033841471\r\n"
+         },
+         "third":{
+            "name":"Time attack",
+            "tagline":"",
+            "description":"STAGE 1: \r\nTwo teams, each team consist of 4 players, will be taken up for battle round which serves as elimination round. \r\nIn this battle round two teams would compete and face each other in a setup arena for 3 minutes, Here each player would be provided  a water gun along with a tissue attached to the cap and an carton armor having tissue paper attached in center .\r\nThe task would be to tear the tissues of players in opposite team and accordingly points will get accounted in that team.\r\nArena is divided into two parts (Favorable area &#8212; with objects where one can hide and unfavorable   area- with no object for hiding), one who wins the toss can select favorable area.\r\nThe winning team would be taken up to next stage.\r\nNOTE: Boys team will compete with boys team only and girls team will compete with girls team only  \r\n\r\nSTAGE 2:\r\n\r\nFrom now onwards they compete with one another against time (team is now divided in individuals: 4 players).\r\nThis stage consist of 6 levels, Each level is having a task which needs to get completed in 1 Minute.\r\nPlayer is provided 2 lives (2 chances to attempt a task) after completion of level 1.\r\nLevel 1 is common for all 4 players named &quot;Pick It Up&quot;, from here only winner levels up and move for next level\/s.\r\nEach task, on completion, will make player earn cash which will increase by 10 Rupees per level. \r\nA checkpoint is provided after completing Level 2 successfully, where Player is asked to quit with earned price or continue playing; if continued and failed at any above level, player loses earned cash.\r\nThe one who clears all 6 levels will be declared as Winner of &quot;TimeAttack&quot; and will cash out with earned price.",
+            "rules":"",
+            "teamsize":"4 per team",
+            "date":"8th March 2017",
+            "time":"9:00 AM onwards",
+            "venue":"CF Right wing + Garden near CF",
+            "fees":"120\/- per team",
+            "contact":"Hardik Modi\r\nhardikmodi2@gmail.com\r\n9662475666"
+         }
+		     "forth":{
+            "name":"Box Cricket",
+            "tagline":"",
+            "description":"",
+            "rules":"1-one pitch one hand out/r/n2-more than 1.5 feet height out otherwise it is called six/r/n3- Twice run in direct ball/r/n4-stumping out/r/n5-overstepping=no ball/r/n6-atleast 1 girl in team,& one over compulsory for girl/r/n7-atmost 4 boys/r/n8-bowling behind stumps/r/n9-direct ball above knees=no ball",
+            "teamsize":"4 Boys and 1 Girl",
+            "date":"8th March 2016",
+            "time":"09:00 am onwards",
+            "venue":"Staff parking / Civil department  parking ",
+            "fees":"150/- per team",
+            "contact":"Dhaduk Aman(c)\r\nMobile - 8758375375\r\n"
+         },
+      },
+      "day5":{
+         "name":"Day 5",
+         "tag":"Mismatch day",
+         "description":"New theme ..! New ideas ..! Showcase your creativity ..! It isn t necessary to always pair your clothes as the fasion blogger says .! On this day there are no rules to dress. So wear things that clash. Try pairing items that would otherwise never go together. You can even try crazy hairstyles or mix wild colors just dress-up for fun ..!!",
+         "totalevents":2,
+         "first":{
+            "name":"Orators  hunger games",
+            "tagline":"",
+            "description":"There will be three rounds in this event.\r\nRound 1 (GD):\r\nIn first round, GD for group of ten persons will be conducted. Participants will have to discuss on the given topic to show their views for the respective topic. Judge will give marks to each participant. after completion of GD for all groups results will be declared. Judge s decision will be final. Participants getting highest marks will go for next round.\r\nRound 2(picture perception):\r\nIn this round a picture showing some situation or famous personality will be shown to the participant. participant has to describe it in 5 minutes.  judge will give marks to each participant. judge s decision will be final. participants getting highest marks will go for next round.\r\nRound 3(it all comes to your speaking &amp; marketing skills):\r\nin this round participant has to sell defective things provided by us. with the help of that money they will have to invest it wisely &amp; try to collect maximum amount. time limit for the round is 30 minutes. participant getting highest amount will be announced as winner.\r\n",
+            "rules":"",
+            "teamsize":"1 member only",
+            "date":"10 \/3\/17 Friday ",
+            "time":"9:00 am onwards",
+            "venue":"CF",
+            "fees":"Rs. 30",
+            "contact":"Kalind Mehta\r\nMo.9426427989\r\nEmail: kalindmehta2412@gmail.com"
+         },
+         "second":{
+            "name":"General quiz-battle of brains",
+            "tagline":"",
+            "description":"&amp;#9679;Event will be having three rounds.\r\n1.First round  will be a written round in which teams will be given a question paper having questions related to current affairs,sports,simple business related questions\r\nelimination will be done based on it\r\n2.Second round is like  a quizmaster will be asking all the teams the same question and the teams have to write  answer  on  a paper.max time for a question will be of 15 sec.\r\nQuestions may a audioclip or video clip or simple question.max4 teams will be selected for final round.\r\n1.Final round will be a buzzer round. The team who will give maximum answer will be the winner.\r\n",
+            "rules":"",
+            "teamsize":"2 members only",
+            "date":"10\/3\/17 friday ",
+            "time":"10:00 am  onwards",
+            "venue":"Dental seminar hall\/MMH\/seminar hall\/ Classroom",
+            "fees":"",
+            "contact":"Karan Shah\r\nMo.7698649686\r\nEmail: karanpankajshah@gail.com"
+         }
+      },
+      "day2":{
+         "name":"Day 2",
+         "tag":"Traditional day",
+         "description":"It is the time to be in a traditional Indian attire. May it be a saree or a kurta or any of the regional attire, dress to your best. Pick a choice that represents the essence of our vast Indian culture.",
+         "totalevents":1,
+         "first":{
+			"name":"Picture Abhi Baaki Hai ..!",
+            "tagline":"",
+            "description":"SHUTTERBUGS presents you a mobile photography event with a twist ..! Click a picture on the basis of a Bollywood movie dialogue you have been assigned and you could win prizes ..! Clicking pictures has never been so much fun. So why not bring along your mates and start clicking ? <br><br>To register yourself : http://bit.ly/2k208SB",
+            "rules":"1. Only mobile photography is allowed. <br>2. Area for photography will be restricted. <br>3. SHUTTERBUGS is not responsible for your clicks.",
+            "teamsize":"1 member only",
+            "date":"7\/3\/17 Tuesday",
+            "time":"12:00 pm  onwards",
+            "venue":"Garden near CF/Library.",
+            "fees":"20 Rs.",
+            "contact":"Hardik Shinghala\r\nMo. 9723053247<br><br>Jainil Desai<br> Mo. 7405747597"
+         }
+      },
+      "day4":{
+         "name":"Day 4",
+         "tag":"Group day",
+         "description":"Stand united! It is the day when the squad gets dressed up portraying the idea that they stand for. Not only the attire would always define the group but it can be anything like representing the army or having little props.Plan a theme and get ready to stand out from the rest of the crowd.",
+         "totalevents":0
+      }
+   }
 }';
-
-//$json_string='{"technical":{"ce":{"name":"Computer Engineering","tag":"Insilico","totalevents":6,"first":{"name":"CodeJam","tagline":"The code is long and full of errors ..!","description":"College Level contest which will challenge students to improve their coding capability.","rules":"Round 1: Pen-n- paper based Elimination Round\r\n\r\nPen-n- paper round with fundamental multiple choice questions of different programming concepts and features.\r\n\r\nQualification to the next round will be based on ranking or cut-off marks.\r\n\r\nTime Duration: 45 min\r\n\r\nRound 2: Encryption-Decryption(using computer)\r\n\r\nEach team will be given problem statement. They will have to write program for the same.\r\n\r\nQualification to the next round will be based on maximum number of test cases which they satisfy and time taken.\r\n\r\nTime Duration: 60-90 min\r\n\r\nRound 3: High Level Coding(using computer)\r\n\r\nEach team will be set of questions for which they will be asked to implement optimised code.\r\n\r\nWinner will be chosen on maximum number of correct implementation in least time.\r\n\r\nTime Duration: 120 min\r\n\r\nRules:\r\n\r\n1. Final result will be based on number of correct implementation in least amount of time.\r\n\r\n2. Participants will not be allowed to access internet.\r\n\r\n3. Tie-Breaker: Indentation, Code Re-use and Use of language specific features.","teamsize":"2","date":"7th March 2017","time":"12:30-2:30 pm","venue":"CE Lab 2 and 3","fees":"Rs. 60 per team","contact":"Harsh Sodiwala(M:9898548458 email: harshsodi@gmail.com)\r\n\r\nAditi Dandekar(M:9727254852 email: aditi.a.dandekar@gmail.com)"},"second":{"name":"The Geek","tagline":"Let the nerd out of you ..!","description":"Become \u201cSecond to None\u201d Computer user by applying your awareness,creativity and skills in using a Computer effectively.","rules":"Round 1: Pen-paper based Elimination Round\r\n\r\nParticipants will be given a set of questions which will check their knowledge of Moderate Level Computer Skills and Awareness.\r\n\r\nQualification for the next round will be based on ranking or cutoff marks.\r\n\r\nTime Duration: 45 Minutes\r\n\r\nRound 2: Tasks on Windows and Linux OS (Using Computer)\r\n\r\nParticipants will be given various tasks which they need to perform on Windows and Linux Operating Systems using GUI or Terminal. There will be a time limit for completion of each task and points will be given according to completeness of each task and the best way used for completion of the same.\r\n\r\nTime Duration: 90-120 Minutes\r\n\r\nRound 3: Clues Based Round (Using Computer)\r\n\r\nParticipants have to a complete a task after completion of which they will get a clue to be used for their next task. The clue will be available from either the previous task itself or the participants will be asked a question whose answer will be their clue. The points for each task will be based on the time taken to complete the task and its correct completion.\r\n\r\nTime Duration: 120-150 Minutes\r\n\r\nRules:\r\n\r\n1. Final result will be based on total points scored and time taken by the participants.\r\n\r\n2. Internet access will be restricted for some tasks.\r\n\r\n3. There will be a tie breaker round after the last round if two teams have same score.","teamsize":"1","date":"7th March 2017","time":"9:00 to 11:00 AM","venue":"CE Lab 2 and (3 or 4 having Windows)","fees":"Rs. 30","contact":"Sanket Bhimani (M: 82090983120, Email: snk.bhimani.jnd@gmail.com)\r\n\r\nJuhi Madhwani (M: 8866640452, Email: juhimadhwani1296@gmail.com)"},"third":{"name":"Android Man","tagline":"","description":"Uplift your creativity and transform your Android phone into a Swiss-knife.","rules":"Round 1: Pen paper Elimination Round\r\n\r\nParticipants will be given a set of questions which will check their knowledge about Android as a whole will be tested.\r\n\r\nE.g. Android user Experience, Android Applications, Tasks that one can do on Android Device,Android Rooting etc.\r\n\r\nQualification for the next round will be based on ranking or cutoff marks.\r\n\r\nTime Duration: 30 Minutes.\r\n\r\nRound 2: Perform Task on your Android Phone\r\n\r\nPhase I: It will be rapid fire round where participants will get points on how quick they perform simple tasks in their own android device.\r\n\r\nPhase II: A set of tasks will be given to participants. (E.g.convert a photo into black and white) They need to perform the tasks in minimum time and in a best way.\r\n\r\nTime Duration: - 90 Minutes\r\n\r\nRules: -\r\n\r\n\uf0b7 Final result will be based on rankings in 2nd rounds.\r\n\r\n\uf0b7 Participants have to pre-install apps on their device. Internet access won\u2019t be allowed for any Round.\r\n\r\n\uf0b7 No restriction on installation of apps. Any number\/type of apps can be installed on the device.\r\n\r\n\uf0b7 Any Android mobile device can be used.\r\n\r\n\uf0b7 Tablets are allowed.\r\n\r\n\uf0b7 Minimum android version 4.1, jellybean.","teamsize":"1","date":"7th March 2017","time":"12:00 to 1:30 PM","venue":"Round 1: - 1 Classroom.  Round 2(I): - 1 Lab or Classroom.  Round 2(II): - 1 Lab or Classroom.","fees":"Rs. 30","contact":"Riya Delhiwala (riyadelhiwala97@gmail.com M: 9898815283)\r\n\r\nVarun Shah (varun.shah196@gmail.com M: 9712820311)"},"forth":{"name":"Hardware Rush","tagline":"Rich the Treasure, Sweet the Pleasure","description":"Find the Treasure by using every ounce of technical knowledge you have.","rules":"Round 1: - Pen-paper elimination round\r\n\r\nThere will be a team of 2 participants.\r\n\r\nParticipants will be given a set of questions which will check their knowledge of basic\r\n\r\nHardware and basic network. This will be an online test.\r\n\r\nQualification for the next round will be based on ranking or cutoff marks.\r\n\r\nApprox Time: - 1 hour\r\n\r\nRound 2: - Biding and Selling\r\n\r\nIn this round, teams will be given some credits based on which they will have to bid for different hardware components so that they can make the best possible combination of component assembly.\r\n\r\nThe team making best assembly will advance for the next round.\r\n\r\nApprox Time: - 3-4 hour\r\n\r\nRound 3: - The Treasure hunt\r\n\r\nThis is the final round. In this round a treasure will be conducted where the teams will be given some clues based on which they have to crack the location and there they will get another clue for the next place. At last participants will have assembled hardware components and team doing it first will win.\r\n\r\nApprox Time: - 3-4 hour\r\n\r\nRules: -\r\n\r\n\uf0b7 There will no internet access for the participants\r\n\r\n\uf0b7 Credits will be given based on the elimns performance\r\n\r\n\uf0b7 Products are to be sold to the committee members at the selling round.","teamsize":"2","date":"7th March 2017","time":"1:00  to 5:00 PM","venue":"Round 1: - 2 Lab.  Round 2: - 1 Lab or Classroom.  Round 3: - 1 Lab or Classroom.","fees":"80\/- per head","contact":"Ravinder Singh (Mobile No. : - 8460348865 Mail ids: - ravindersingh3104rs@gmail.com)"},"fifth":{"name":"Gaming-FIFA","tagline":"Its in the game ..!","description":"Battle through different players in different teams.","rules":"Round 1: - Hometown round\r\n\r\nInternational or Club gameplay will be decided on the basis of a toss.\r\n\r\nBoth players will be allowed to select a team and then that player will have to in his own team in this round also known as Home Team.\r\n\r\nRound comprises of 4 min half that is complete 8 min game.\r\n\r\nThis round will be of one game.\r\n\r\nApprox Time: - 10 Min.\r\n\r\nRound 2: - Away round\r\n\r\nIn this round the player who played in the home country in previous round will play in other player\u2019s selected country that is away country.\r\n\r\nThis round too will be of 4 min half which is 8 min full.\r\n\r\nThis round will be of one game.\r\n\r\nThe scores will be the total score achieved in both rounds.\r\n\r\nIf a player playing in away scores a goal than that point will be added as a bonus point and will only be considered when both players scores equal sum of goals.\r\n\r\nThe structure of the competition is tree structure that is each pair of round will be knock out round.\r\n\r\nThe finale will be of around 20 min full having same round structure.\r\n\r\nApprox Time: - 10 Min.\r\n\r\nRules: -\r\n\r\n\uf0b7 Controllers if provided by committee are not to be damaged and if damaged player will have to pay certain fine.\r\n\r\n\uf0b7 Players are allowed to bring their own controllers.\r\n\r\n\uf0b7 Players must be present in the tournament area with the whole team at the notifications schedule. Players are advised to be present a few minutes before the schedule to avoid any unpredictable delay. If the team is not present at the notification schedule, they shall be disqualified.\r\n\r\n\uf0b7 Teams will be given 1 minutes to configure their settings and after that use of console or change in settings will be strictly prohibited.\r\n\r\n\uf0b7 The seating arrangement is to the discretion of the tournament officials.\r\n\r\n\uf0b7 Players are allowed to bring their own headphones.Headphones will not be provided by the committee.","teamsize":"1","date":"7th March 2017","time":"12:00 to 5:00 pm","venue":"Lab 5","fees":"30\/- per head","contact":"Binit Gajera (Mobile No. : - 9714983493 Mail ids: - binit_gajera@yahoo.com)"},"sixth":{"name":"Gaming Counter Strike 1.6","tagline":"Keep your head low and aim high!","description":"Battle through different players in different teams.","rules":"Main Tournament:\r\n\r\nThe tournament will be knock out. The team which wins its 1st stage match advances to the\r\n\r\nnext stage. The knock out continues till we get final 4 top scoring teams for the semi- finals.There will not be any match played for the third spot.\r\n\r\nEvery prelims and quarters match will be played on one map with a total of 7 rounds.For pre-semifinals, there would be a trial round\r\n\r\nTHE WINNER OF THE TRIAL ROUND WILL DECIDE THEIR SIDE\r\n\r\n1) Terrorist.\r\n\r\n2) Counter terrorist.\r\n\r\nSemi-finals:\r\n\r\nFor the Semi-Finals, total number of rounds will be 14 (7 each as a Counter Terrorists and\r\n\r\nTerrorists). For each round win, team will be rewarded 1 point.\r\n\r\nFinals:\r\n\r\nFor the final round, there would be 20 rounds (10 each as terrorist and counter-terrorist).\r\n\r\nFor each round win, team will be rewarded 1 point.\r\n\r\nTie breaker:\r\n\r\nThere will be extra 7 rounds played on the same map and the team will start as the same as it finished in the normal rounds.The start money for the tie breaker rounds will be $10000.The team to win first 4 rounds total will be the winner of the match.If a tie breaker also leads to a draw then 1 extra round will be played and the winner will be the winner of the match.\r\n\r\nGame Settings:\r\n\r\nUse of Tactical Shield is strictly forbidden.\r\n\r\nIf a team uses it intentionally or unintentionally, the team loses the round immediately.\r\n\r\nIntentional or unintentional use of bugs and\/or exploits is strictly forbidden. Any questions regarding bugs and\/or exploits must be brought to the tournament official present there. If a team is found to use bugs and\/or exploits, the opponent team shall be declared as the winner of the match and a warning will be given to the team that used bugs and\/or exploits by the tournament official.\r\n\r\nThe following settings will be set on servers:Round-time: 1 min 45 sec Freeze-time: 5 sec Buy-time: 20 sec Friendly Fire: On\r\n\r\nStarting money: 16000$.Rules:\r\n\r\n-Players must be present in the tournament area with the whole team at the notifications schedule. Players are advised to be present a few minutes before the schedule to avoid any unpredictable delay. If the team is not present at the notification schedule, they shall be disqualified.-Teams will be given 1 minutes to configure their settings and after that use of console or change in settings will be strictly prohibited.-The seating arrangement is to the discretion of the tournament officials.-Players are allowed to bring their own mouse and headphones. Headphones will not be provided by the committee.-If one of the players is disconnected or crashed, he must come back in to the game as soon as possible and the round will be restarted. The team should be of 5 members and no change of players in the team is allowed after they have played their first match.-Player can use their own USB mouse.\r\n","teamsize":"5","date":"7th March 2017","time":"12:00 to 5:00 pm","venue":"Lab 5","fees":"150\/- per team","contact":"Binit Gajera(Mobile No. : - 9714983493 Mail ids: - binit_gajera@yahoo.com)"}},"it":{"name":"Information Technology ","tag":"Tech-crusade","totalevents":4,"first":{"name":"Code Crunch","tagline":"Talk is cheap, show me the code","description":"The main motive of a program is to satisfy the intentions of the user. If you think your code can satisfy our intentions, you have entered the right place. And as someone has said \u201cGive someone a program, frustrate him for a day. Teach someone to program; frustrate him\/her for lifetime\u201d. If you have learnt to get frustrated for a lifetime, get frustrated for a day then.","rules":"Round 1: Elimination Round (Using Pen and Paper)\r\nEach participant has to solve a question paper having basic C or C++ or logic questions involving finding and resolving errors, finding outputs of given programs, etc. The qualifying participants will be selected based on ranking or cut-off marks. Maximum 20 participants will enter into Round 2.\r\nTime Duration: 60 Minutes\r\n\r\nRound 2: Moderate Programming Skills (Using Computer)\r\nThis round has a set of programming problems that the participant is expected to solve (design an algorithm and implement it in C or C++) as many as possible. Maximum 20 participants will enter into Round 2.\r\n\r\nTime Duration: 60 Minutes\r\n\r\nRules: \r\n1.The person will be free to choose their development tools (Turbo C++ in Windows or gcc\/g++ in Linux).\r\n2.Round 1 will have many questions which need to be attempted in 60 minutes. Solve as many questions as you can. Maximum of 20 teams move on to the next round.\r\n3.For Round 2, the teams\u2019 ranking will be decided on the basis of the no of problems correctly solved in the time limit. \r\n4.Teams can use paper and pen to do calculations.\r\n5.The organizing committee reserves right for any change\/addition in rules.\r\n","teamsize":"1 member only","date":" 9th March 2017","time":" Round 1 : 12:30 to 01:00 PM\r\nRound 2 : 3:00 to 4:00 PM","venue":"Round 1 : CR No. 5\r\nRound 2 : IT Lab 2","fees":"Rs.30","contact":"Keyur Dhanesha   Mob. No : 9409430444  E-mail: kd1407@yahoo.com  \r\nJay Desai\t Mob. No : 8490885794\tE-mail : d08jay@gmail.com\r\n\r\n"},"second":{"name":"Circulorum-en-tech","tagline":"Time to confer","description":"For those who love to \u201cprove their point\u201d, get into this technical discourse.\r\nWe await your point form the treasure of your technical knowledge. Be assertive, be quick. Don\u2019t meander; it\u2019s time to \u2018prove your point.","rules":"Round 1: Elimination Round\r\nThis round will select 5 teams based on the activity given to teams. The activity would involve testing of technical thinking and presentation skill.\r\n\r\nTime Duration: 45 Minutes\r\n\r\n\r\nRound 2: Technical Group Discussion\r\nIn this round the teams would be allocated a technical topic or technical challenge. They would be allocated 10 minutes to think and make points on the same. After 10 minutes the discussion on that topic shall began.  \r\n\r\nTime Duration: 30 Minutes for actual discussion\r\n\r\n\r\nRules:\r\n1.Use of only English language is allowed during technical discussion.\r\n2.While presenting ideas or doing discussion, the team members must use polite, formal, non-offensive, and non-abusive language\/tone\/gestures.\r\n3.The organizing committee reserves right for any change\/addition in rules.  \r\n","teamsize":"Exactly two members ","date":" 9 March 2017","time":" Round 1 : 11:00 to 12:00 PM\r\nRound 2 : 1:30 to 2:30 PM\r\n","venue":" Round 1 : IT LAB1 IT LAB2\r\n Round 2 : IT Lab 1","fees":"Rs. 50","contact":"Vivek Patel:<br>Mob No : 8230669778 <br>E-mail: vivek.p.ptl@gmail.com\r\nSrujan Shah <br>Mob No : 9601977376  E-mail:shahsrujan@gmail.com\r\n\r\n"},"third":{"name":"Google-de-scrutiny","tagline":"Entangled in the web","description":"Have you ever gone beyond the first page of \u201cGoogle\u201d. If you have the tactics to deal with the world of\u201cgoogle\u201d, take a deeper dive. Come forward to face thunderlying enigma of Google. Scratch your brains to answer the already answered stuff.","rules":"Round 1: Elimination Round (Using Computer and Internet)\r\nEach participant has to solve a set of internet search tasks. The qualifying participants will be selected based on the number of correctly solved search tasks. Maximum 12 Teams will enter into Round 2.\r\n\r\nTime Duration: 30 Minutes\r\n\r\nRound 2: Expert Searching Skills (Using Computer and Internet)\r\nThis round has a set of internet search tasks that will require expert search skill in order to retrieve asked information. \r\n\r\nTime Duration: 45 Minutes\r\n\r\nRules:\r\n1. Only 1 member per team.\r\n2. If in case of any tie, Tie-breakers shall be used.\r\n3. Internet connection will be provided to the participants during both the rounds.\r\n4. The organizing committee reserves right for any change\/addition in rules.","teamsize":"1 member","date":"8 March 2017","time":"Round 1 : 1:00 to 1:30 PM\r\nRound 2 : 2:15 to 3:00 PM","venue":" Google-de-scrutiny (R-1) : IT Dept. SW Lab\r\nGoogle-de-scrutiny (R-2) : IT Dept., Lab-2\r\n\r\n","fees":"Rs. 30","contact":"Harshit Rathod : Mob no : 8200664810 Email : hrharshit27@gmail.com\r\nVrund Patel  Mob No :  7600487027 E-mail : pvrud32@gmail.com\r\n\r\n"},"forth":{"name":"FIFA INTERACTIVE TOURNAMENT","tagline":"Your only goal - &quot;Qualify&quot;.","description":"Some people say Football is about Life &amp; Death,I Assure you it is much more than that!\r\nSo, get on these laptops and prove your gaming skills in the battle of  FIFA every football fan wishes to play.","rules":"All Rounds will be eliminatory.\r\n1. No. of rounds will be according to the amount of entries received.\r\n2. Each Rounds will have 2 players Playing Against Each other.\r\n3. The Player can choose between keyboard &amp; controller to play the game.","teamsize":"1 member only","date":" 8 March 2017","time":"10:00 to 12:00 PM ","venue":" IT Mtech Lab.","fees":"30\/- per person.","contact":"Parth Champ<br> Mob No : 8866777358<br> E-mail: parthchamp169@gmail.com\r\nKishan Upadhyay<br> Mob No : 9426533497<br> E-mail : kishan.u1996@gmail.com"}},"mba":{"name":"MBA","tag":"Bizz Brainz","totalevents":5,"first":{"name":" KAUN BANEGA MANAGER","tagline":"","description":"Registration fee: Rs. 100 per head \r\nFormal dress code.\r\nPreliminary rounds will be conducted on the same day.\r\nResume must be sent on or before March 5, 2017,  through mail on shah.hardik0701@gmail.com \r\nThe subject of the e-mail should be BEST MANAGER\r\nThe Best Manager will be carried in different rounds and will be conducted throughout the day at regular intervals.\r\nThe proposed rounds for the KAUN BANEGA MANAGER will be as follows:\r\na) Presentation on the given case study, which will be common for all. Presentation time 5-6 mins.\r\nb) Numerical aptitude test.\r\nc) Interpretation of the financial statements of different companies.\r\nd) Panel interview. e) stress interview\r\nGrand total will be calculated of the finalist and one who prevail the top of the list will be the Best Manager.","rules":"","teamsize":"","date":"","time":"","venue":"","fees":"","contact":""},"second":{"name":"BUSINESS MODEL","tagline":"","description":"Registration fee: Rs. 50 per head \r\nBusiness plans may be submitted by individuals or by teams. \r\nThere must not be more than 4 participants in a team. \r\nExecutive summary, containing the expansion of concepts outlined must be sent through-mail on shah.hardik0701@gmail.com on or before March 5, 2017 and the selected plans will be intimated through e-mail.\r\nThe subject of the e-mail should be BPLAN\r\nTeams should bring soft copy in CD and Hard copy while attending competition.\r\nTeams must come with their proposed model while attending competition for the judgment and explanation purpose.\r\nFinal-round submission will be judged according to the following criteria: \r\nIs the business financially feasible?\r\nQuality of products, services and\/or solutions\r\nMarket opportunities and competition\r\nTeam qualifications\r\nOverall attractiveness of the venture","rules":"","teamsize":"","date":"","time":"","venue":"","fees":"","contact":""},"third":{"name":"MANAGEMENT QUIZ","tagline":"","description":"Registration fee: 100 per team \r\nTwo participants per team\r\nTeams should get registered before OR on the spot on the day of the event\r\nJudges decisions are ultimate.\r\nTeams should maintain dignity with in the event hall.\r\nThe participants shall not be allowed to use mobile or other electronic instruments.\r\nThe questions shall be in the form of multiple choice, True\/False statement, Specific-answer question etc.\r\nAudience shall not give any hints or clues to the competitors.\r\nThe whole event will be dividing in the three rounds.","rules":"","teamsize":"","date":"","time":"","venue":"","fees":"","contact":""},"forth":{"name":"MOVIE MAKING","tagline":"","description":"Registration fee: Rs. 100 per team \r\nTwo or more participants in a team\r\nThe themes for the competition are (I) Social Issue (II) Go Green (III) Lesson from Management\r\nTeams should get registered before March 5, 2017.\r\nJury decisions are  ultimate\r\nTeams should maintain dignity with in the event hall.\r\nEach participant will be allotted 10 minutes to display their movie.\r\nAny part of the movie should not breach the decorum of the institute.","rules":"","teamsize":"","date":"","time":"","venue":"","fees":"","contact":""},"fifth":{"name":"FILMOTSAV","tagline":"","description":"Registration fee: Rs. 70 per head\r\nEach participant is required to carry a pen and note pad with them.\r\nThere will be a general discussion on the film between the participants.\r\nPRODUCT LAUNCH:-\r\nThe first round will be elimination round wherein a panel of judges will evaluate all the submitted entries. The team needs to have minimum 2 and maximum 4 participants.\r\nFor preliminary round, participants need to select a product or services which are innovative and cater to a new market need which is not met as of now.\r\nFor the selected product or services, team needs to submit PPT with maximum 20 slides.\r\nThe PPTs are required to mail by March 5, 2017 on shah.hardik0701@gmail.com .\r\nFor the elimination round, 5 minutes will be given to each team for presentation and five best teams will be selected by panel of judges for final round.\r\nThe 3 selected teams will give the final presentation and that would be of 15 minutes followed by Questions-Answer of 5 minutes.\r\nTeam can include all the creative aspects required for a new product launch like tagline, slogan, ad copy, poster etc... for the final presentation.\r\nRegistration Fees Rs.100 per team.","rules":"","teamsize":"","date":"","time":"","venue":"","fees":"","contact":""}},"cl":{"name":"Civil Engineering ","tag":"Creato","totalevents":5,"first":{"name":"TECHNO CRANE","tagline":"","description":"Member have to make Crane Model from the Straw stick.","rules":"Round 1: Elimination Round \r\nThe Participant has to make crane model with in the required time limit.\r\nThe winning criteria or elimination criteria and tolerance of model will be discussed on event day. \r\n","teamsize":"3 members only","date":"7th March 2017","time":"10:00 to 12:00 PM","venue":"Old Civil Engg. Department","fees":"Rs. 150 (per Team)","contact":"Rahul Khatri <br>8866242032<br>8866242032rk@gmail.com"},"second":{"name":"BRIDGE MANIA","tagline":"","description":"Member have to make Truss Bridge model from pop-stick or straw stick.","rules":"Round 1: Elimination Round \r\nThe Participant has to make Truss Bridge model with in the required time limit.\r\nThe winning criteria or elimination criteria and tolerance of model will be discussed on event day. \r\nRules: It is on the spot event Rule will be decided at the time of event.","teamsize":"3 members only","date":"7th March 2017","time":"3:00 to 5:00 PM","venue":"Old Civil Engg. Department","fees":"","contact":"Ketul Chaudhari<br>9687910465<br>ketu2201@gmail.com"},"third":{"name":"Quiz Up","tagline":"","description":"General Quiz Competition","rules":"Round 1: Pen & Paper Round\r\nGENERAL TECHNICAL QUESTIONS\r\n\r\nRound 2: Buzzer Round\r\n            \r\nRound 3: Final Round\r\n\r\nTime Duration: 90 Minutes (minimum)\r\n\r\nRules: It is on the spot event Rule will be decided at the time of event.Participants are not allowed to use any study material.","teamsize":"3 members only.","date":"7th March 2017","time":"Round1 : 12:15 to 12:45 PM   Round 2 : 1:15 to 1:45 PM Round 3  : 2:15 to 2:45 PM","venue":"Narayan Bhavan, Civil Engg. Drawing Hall.","fees":"Rs. 60","contact":"Akshar Barot<br> 9033456709<br> barotakshar24@gmail.com"},"forth":{"name":"TECHNO BRIDGE","tagline":"","description":"Member have to create a bridge on software","rules":"Round 1: Elimination Round\r\nMember have to create a bridge on software with in required time. If member fail to do so will be eliminated.\r\n \t\r\nTime Duration: 45 Minutes (minimum)\r\n\r\n\r\nRules: It is on the spot event Rule will be decided at the time of event.\r\n","teamsize":"1 member only","date":"8th March 2017","time":"10:00 to 10:45 AM","venue":"Narayan Bhavan, Civil Engg. Drawing Hall.","fees":"Rs. 30","contact":"Meet Dave"},"fifth":{"name":"TECH RITTORY","tagline":"","description":"Round 1: Pen & Paper Round\r\nRound 2: Puzzle Round\r\nRound 3: Field Showdown\r\n \t\r\nTime Duration: 150 Minutes (minimum)\r\n","rules":"Rules: It is on the spot event Rule will be decided at the time of event.\r\nNOTE:- For any Latest update Contact to Coordinator. For any change in Future.\r\nRequired Material will be provided by us.\r\n","teamsize":"3 members only","date":"8th March 2017","time":"Round1 : 11:00 to 11:30 AM   Round 2 : 11:45 to 12:45 PM Round 3  : 1:15 to 2:15 PM","venue":"Round 1 : Narayan Bhavan, Civil Engg. Drawing Hall.   Round 2 : Campus  Round 3 : campus","fees":"120\/- per team","contact":"Vinay Avani<br>9033318167<br>vinnyavani@gmail.com"}},"ch":{"name":"Chemical Engineering ","tag":"Collision","totalevents":6,"first":{"name":"CHEMCOUPE","tagline":"Be the Entrepreneur!!","description":"Description: This event aims at applying the knowledge of chemical technology (unit operations and unit processes) to design the flow path for the conversion of raw materials to products.","rules":"Rounds scheme:\r\nThere will be only 1 round in this event. \r\nIn this round, plant description will be given to each team. They have freedom to go with any proper and efficient unit operation or process. A process is to be designed by flow diagram using suitable unit operations and processes. That flow diagram should be submitted with proper justification of each unit operation and process with proper and optimum conditions and with description of whole flow diagram. The flow diagram should be such that the cost should be optimum to given conditions. The most energy efficient and environmental friendly flow sheet will be awarded winner.\r\nRules:\r\n1.\tFlow diagrams should be drawn with appropriate symbols.\r\n2.\tMaximum two participants can form a team.\r\n3.\tMaximum 1 hour time period will be there.\r\n4.\tText books and references are not allowed. \r\n5.\tParticipants should be aware of costs of different equipments.\r\n","teamsize":"2 participants per team","date":"10th March 2017","time":"3:00 to 5:00 PM","venue":"Seminar Hall","fees":"50\/- per team","contact":""},"second":{"name":"CHEM-ILLUSION","tagline":"Be the illusioner but with chemicals\u2026.","description":"This event aims at applying the basic knowledge of chemistry(Chemical reactions).\r\nParticipants have to perform magic using any chemical reaction. After performing their trick, participants must need to explain the mechanism behind the trick. Participants can perform as many tricks as they want. \r\n","rules":"1.\tSafety first. (Come with apron and safety shoes, Safety gloves will be provided.)\r\n2.\tHazardous or concentrated chemicals are not allowed.\r\n3.\tChemicals will not be provided.\r\n","teamsize":"Maximum 3 participants per team","date":"9th March 2017","time":"4:00 PM to 5:30 PM","venue":"CR-10","fees":"30\/- per team","contact":""},"third":{"name":"CHEM-E-QUIZ","tagline":"Think Quick!","description":"This event aims at applying the general knowledge of Chemical engineering.","rules":"Rounds scheme:\r\nRound 1- Elimination Round\r\n\u2022\tThe test consists of general chemical knowledge. 25 minutes will be given to complete the written test. Based on the score, participants will be selected for the next round.\r\nRound 2- Ultimate Round\r\n\u2022\tThere will be maximum 5 teams. It consists of following segments:\r\n1.\tQuestions based on topics of choice\r\n2.\tLogical questions(how, why)\r\n3.\tBuzzer round\r\n4.\tRapid fire\r\nRules:\r\n1.\tParticipants will be provided rough paper.\r\n2.\tNo textbooks or references will be allowed.\r\n3.\tElimination criteria will be decided on the basis of the results.\r\n","teamsize":"2 participants per team","date":"9th Marc 2017","time":"Round 1: 9:30 to 10:30 AM  Round 2: 2:00 to 3:30 PM","venue":"Round 1: CR-11  Round 2: CR-10","fees":"50\/-per team","contact":""},"forth":{"name":"EXPLOREREN","tagline":"Nothing weighs more than a secret","description":"This event aims at applying the knowledge of chemical technology and basic chemistry. ","rules":"Rounds scheme:\r\nThe event consists of two rounds:\r\n\u2022\tFirst round is Treasure Hunt.\r\n\u2022\tSecond round has two parts:\r\na.\tTo solve a crossword puzzle.\r\nb.\tFrom the answer of the crossword puzzle, detection of compound from the clues by smell.\r\nThe winner will be decided based on time and points.\r\nRules:\r\n1.\tMaximum 2 participants can form a team.\r\n2.\tParticipants will be provided rough sheet if required.\r\n3.\tElimination criteria will be decided on the basis of the results.\r\n","teamsize":"2 participants per team","date":"10t March 2017","time":"10:00 to 11:30 PM","venue":"CR-11","fees":"","contact":""},"fifth":{"name":"HYDROCAR","tagline":"Think Beyond!!!","description":"This techno event is basically interactive workshop session. It aims to up skill participants with the knowledge of designing a car that runs of Hydrogen Fuel cell. The entire procedure of assembling the components and basic idea of fuel cell will be conveyed to the participants. At the end of the session queries will be solved related to the workshop.","rules":"","teamsize":"","date":"10th March 2017","time":"12:30 to 2:30 PM\t","venue":"CR-10, 11\t","fees":"50\/- per team","contact":""},"sixth":{"name":"TECHNOTALK","tagline":"","description":"Expert lectures (lectures will be delivered by experts from industries and academics)","rules":"","teamsize":"","date":"9th March,2017","time":"11:00 to 1:00 pm","venue":"MMH","fees":"50\/- per head","contact":""}},"mh":{"name":"Mechanical Engineering ","tag":"Dimensions","totalevents":2,"first":{"name":"TECHPOST","tagline":"","description":"Tech Poster Presentation","rules":"1. The poster should be of size- 36 x 48 inches\r\n2. The presenters will get 10min to present their poster           after which there will be 5min of\r\n    Questions and answer with the judges.\r\n3. The text and illustrations must be clearly readable at a distance of three feet.\r\n4. The topic must be of a relevant engineering field.\r\n\r\n","teamsize":"2 members only","date":"7th March 2017","time":"11:00 to12:00 PM","venue":"Narayan Bhavan (MH Dept.)","fees":"Rs. 100","contact":"YASH PATEL<br> 9998084424<br> yashdpatel555@gmail.com"},"second":{"name":"MOCKPLACEMEN","tagline":"","description":"Mock placement for the benefit of students.","rules":"*Round 1: Written Test (Technical & Aptitude)\r\nIn the written test round the participants must give a short written examination constituting  of technical and aptitude questions to test their mental ability. The top few scoring participants will be selected for the next round.  \r\n\r\nTime Duration: 09:30 A.M to 11:30 A.M\r\nRound 2: Group Discussion\r\nIn this round the selected participants will be placed in teams for a group discussion on a topic provided. This will test the communication skills and the ability of the student to participate in a group. Judges will select the best participants according to a list of criteria.\r\n\r\nTime Duration: 12:30P.M to 3:00 P.M\r\n\r\nRound 3: Personal Interview\r\nThe selected participants will now take part in a personal interview which simulates an interview during placements, testing the overall knowledge and confidence of the student.\r\nRULES : \r\n1. For a written test a cut off will be decided & on that basis, participants will be proceed         further for second round\r\n2. In G.D. the judging will be based on the communication skill, initiation ability, content.\r\n3. For P.I. the judging will be done by the judges or the interviewer.\r\n","teamsize":"No team. Individual entry","date":"7th March 2017","time":"09:30 to 5:00 PM","venue":"Round 1 Class No:36,37;  Round 2 and Round 3 in MH Dept., Narayan Bhavan","fees":"Rs. 50","contact":"SNEHANKIT THUMMER<br> 9825158769<br> snehankitthummer0077@gmail.com<br>"}},"ic":{"name":"Instrumentation And Control ","tag":"Instronics","totalevents":3,"first":{"name":"Poster Presentation","tagline":"","description":"Basic Technical and General Knowledge Questions asked to improve I.Q. as well E.Q. level of Students.\r\nExpected strength\/skill of participants: Innovative Ideas Representation","rules":"Round 1: Presentation of Poster & Question-Answer \r\n\r\nTime Duration:  Tentative 60 Minutes (for Event)\r\n\r\nRules:\r\n\r\nThe poster must include the following:\r\n\u2022\tTitle \r\n\u2022\tNames of author(s) and affiliated organization(s) \r\n\u2022\tAbstract (brief summary of objectives, methods, results, and conclusions) \r\n\u2022\tBackground Information\r\n\u2022\tProject Objectives \r\n\u2022\tMaterials and Methods\r\n\u2022\tResults (tables, graphs, charts)\r\n\u2022\tDiscussion of possible future directions\r\n","teamsize":"2 members only","date":"7th March 2017","time":"10:00 to 11:30 AM","venue":"Off MMH","fees":"Rs. 50","contact":"Airwadia Vivek A.\r\nPatel Kinjalkumar H.\r\nPatel Anal, Patel Nidhi"},"second":{"name":"Techno Quiz","tagline":"","description":"Basic Technical and General Knowledge Questions will be asked in different rounds ","rules":"Round 1: Elimination Round\r\n\r\nWritten Test (Technical + General Knowledge) will be held \r\n\r\nTime Duration: 45 Minutes (for Event)\r\n\r\nRound 2: On Screen Question Answer Round\r\n\r\nTime Duration: Around 30 minutes \r\n\r\nRound 3: Rapid fire Round\r\n\r\nIn one minute ten or more questions would be asked to individual team. According to correct Answers, Points would be given. \r\n\r\nTime Duration: 1 minute\/Team\r\n\r\nRules:\r\n1. Team members are not supposed to use mobile and\/or calculators.\r\n","teamsize":"3 members only","date":"7th March 2017","time":"R-1: 2:30 to 3:15 PM  R-2: 3:30 to 4:00 PM  R-3: 4:15 to 4:45 PM","venue":"SEMINAR HALL.","fees":"Rs. 50","contact":"Parth Varmora\r\nSuvagiya Kishan\r\nShah Romanch\r\nRishi Sheth"},"third":{"name":"Web Hunt","tagline":"","description":"On the spot topic would be given. Students are supposed to find information regarding the topic using internet connectivity and make effective presentation in power point and represent the same.","rules":"Round 1: Hunting information regarding given topic\r\n\r\nTime Duration: 45 Minutes (for Event)\r\n\r\nRound 2: Presentation\r\n\r\nTime Duration: Around 5 minutes Presentation + 2 minutes question Answer Session\r\n","teamsize":"2 members only","date":"7th March 2017","time":"R-1: 11:45  to 1:15 PM  R-2: 1:30 to 2:30 PM ","venue":"R-1: IC DEPT. TUTORIAL ROOM.  R-2: SEMINAR HALL. ","fees":"Rs. 50","contact":"Umang Parmar\r\nShivang Mistry\r\nAnal Chokshi\r\nMohna Chattopadhayay\r\nDharav Modi"}},"ec":{"name":"Electronics And Communication ","tag":"Resonance","totalevents":8,"first":{"name":"Buzz it to Quiz it","tagline":"","description":"Event based on basic Electrical and Electronic concepts and mental ability along with testing of circuit designing and equipment usage","rules":"Round 1 (Qualifier Round): Circuit Implementation\r\nEach team has to implement a buzzer circuit on breadboard as per the manual provided on the spot. Teams successfully completing this task in minimum duration with at most accuracy will be selected for the next round. \r\nIt will also include a surprise bumper round based on the teams\u2019 performance and risk taking ability.\r\nRound 2 (Final Round): Quiz\r\nThis round consists of Basic Technical and calculative Quiz. Buzzer made by the qualifying teams of previous round will be made into use for this round. Winning Teams will be selected as per the scores acquired and final judgment of authorities. This round will be abide by time constraint and negative points. Bonus points will be provided for every passed question answered. \r\nIn case of clashes like multiple teams hitting the buzzers at same instant, their respective answers shall be collected without disclosure, and shall be compared with the correct answers. The round may also implement the tie breaker whenever needed.  \r\nRules:\r\n1. Students must bring DMM, Breadboard< Connecting wires, etc.\r\n2. Necessary components ie. Resistors, capacitors and lab access shall be provided by the organizers.\r\n3. A team must consist of members not more than 2.\r\n4. Teams not conducting the basic ethics and harming the competitiveness are subject to immediate disqualification.\r\n","teamsize":"","date":"7th March 2017","time":"R-1\t9:00 to 11:00 AM R-2 11:00 to 12:00 PM","venue":"","fees":"","contact":""},"second":{"name":"ChargeOn (Workshop)","tagline":"","description":"ChargeOn is the kick start workshop for 1st and 2nd year students who are interested in doing projects. The workshop will be conducted in 3 phases as described below:\r\n\r\nPhase 1:\r\n\u2022\tBasic introduction about how to approach the project and how to plan timing for doing specific tasks involved within it as they would not have done work on real life projects until now.\r\n\u2022\tBrief description of all the components included in the project along with how to read important things from datasheet will be taught.\r\n\u2022\tCircuit diagram of the project will be explained thoroughly by senior student coordinators.\r\nPhase 2:\r\n\u2022\tKit of all the components will be provided after which each team has to design power supply based on the circuit diagram explained in phase 1.\r\nPhase 3:\r\n\u2022\tFuture guidance on what projects students can make during vacation period will be given based on arduino and micro-controllers depending upon their interests in the particular field.\r\n","rules":"","teamsize":"2","date":"7th March 2017","time":"9:00 to 12:00 AM","venue":"","fees":"Rs.200\/- per team","contact":"Jay Parekh (8160605393)\r\nSavan Patel (8490800763)"},"third":{"name":"Elite Talks","tagline":"","description":"Event is based on technical and non-technical know how on a particular topic. They have to choose any one from given two topics written in chits on the spot and they need to speak for technically and non-technically for at least one minute on that topic. This will be elimination round.","rules":"Round 1: Describe topic technically and non-technically\r\nIn this round, the team of two students has to speak at least for one minute technically and one minute non-technically on chosen topic. Based on their speech they will be given points. After that they need to answer the questions asked by audience. \r\nAudience is allowed to ask at max 3 questions. Extra points will be awarded to the team by giving right answer and if team will not be able to answer, or gives wrong answer then points will be deducted for that team.\r\nRound 2 (Final Round): Speak on solved puzzle for at least 3 minutes\r\nIn this round team has to select one chit and they need to solve the puzzle in that chit after solving the puzzle they will get answer of scientist name and then they need to speak about that scientist for at least 3 minutes. They can speak about scientist\u2019s life, achievements, given theories, proofs and whatever things they know about them. Winner team will be decided based on content of their speech.  \r\nRules:\r\n1.\tEach member has to speak at least one minute compulsory.\r\n2.\tIn round 1 - they will be given maximum 20 points based on their speech , and if they give correct answer on questions asked by audience then 3 points will be rewarded else 2 points will be deducted.\r\n3.\tIn round 2 - they need to speak for at least 3 minutes.\r\n","teamsize":"2","date":"6th March 2017","time":"Round 1 -9:00 to 10:00 AM Round 2- 11:00 to 12:00 PM","venue":"","fees":"40\/- per team","contact":"Parthit Sardhara (9624789439)\r\nEarnest Vakeriya (9408910948)\r\n"},"forth":{"name":"Poignant Presentation","tagline":"","description":"As a technical student, one has to demonstrate their technical idea with its hardware project in details (Complete System in working condition) with presentation and its practical application(s) and also they can represent the technical term in such a way that any non-technical person can understand easily. Yes, it\u2019s the time now to unleash your creativity. Show your intellect, your unique edge and sense for your favorite topic. i.e. design the hardware model & relevant posters\/ animations\/ banners\/ videos\/ presentation. \r\n\r\nYour idea, your imagination, your way of presentation and your resources. The real battlefield competition for your creativity. One can bring their own resources as per their idea requirements.\r\n \r\nRounds scheme \r\nTeam has to explain the concept or technology with their presentation and aids to visiting group of students.\r\n\r\nThis event will be represented as a project exhibition in which all the participants are going to represent their project. In this exhibition all the respected faculty members and the students (especially 1st year) will be invited. A paper will be given to each visiting student\/ group to give the marks to the participants who are demonstrating their project.After the flow of visiting student\/group respected faculty will give their opinion and advice to the participant\u2019s about their project.  \r\n","rules":"1.\tMax. Time for a single presentation:  Not more than 6 minutes.\r\n2.\tThe designed hardware should be a complete system (i.e. only a block of a system shall lead to disqualification from the event).\r\n3.\tThe participants should be prepared for Q&A\r\n","teamsize":"Max 2","date":"7th March 2017","time":"1:00 to 3:00 PM","venue":"","fees":"Rs 50\/- per team","contact":"Siddharth Patel (8460497794)\r\nAkshay Sanghani(8758197594)\r\n"},"fifth":{"name":"Q\u2019uestionario","tagline":"Here Everyone Is A Winner","description":"Event based on general knowledge, current affairs & some basic technical knowledge of electronics \r\n\r\nNo. of Rounds: 2\r\nRounds Scheme:\r\nRound 1 (Qualifier Round): General Knowledge & Current Affairs\r\nQuestions would be asked about the general knowledge & current affair. Each team would be given a time limit of 30 seconds for each question which and they have to write their team name and answer on a chit provided by the coordinators .Then they have to put their chit in the jar\/box in the given time. The team which will put their chit first in the jar\/box will be given the first preference. The top 5 teams will be qualified for the next round.\r\nRound 2 (Final Round): Tech & Non Tech\r\nThis round will test both technical and non-technical knowledge of the qualifiers of the round 1.  The top 3 teams of second round will be winner. In this round the teams will be given the time limit of 30 seconds. \r\n","rules":"1.\tA team should have at least one pen\r\n2.\tA team must consist of members not more than 4.\r\n3.\tTeams not conducting the basic ethics and harming the competitiveness are subject to immediate disqualification.\r\n4.\tThe decision of the coordinators  would be the final decision and non- questionable\r\n","teamsize":"4","date":"7th March 2017","time":"1:00 to 3:00 PM","venue":"","fees":"Rs. 100\/- per team","contact":"Pratik Varmora (9978373842)\r\nAarif Shaikh (8866080846)\r\n"},"sixth":{"name":"Resistance Rapture","tagline":"","description":"Event based on Basic Electrical & Electronics Engg.  And Electronics Principles\r\n\r\nRounds scheme:\r\nRound 1: This round consist of 3 task [Elimination Round]\r\nTask 1: 5 questions will be asked in succession and the participants have to answer  the question in \u2018yes\u2019 or \u2018no\u2019 quickly. The question will not be repeated second time.  \r\nTask 2: This task will include identification of symbols (logo). Cards with technical symbols will be given to the participants and they have to identify 3 cards within 30 seconds.\r\nTask 3: This task contains 10 multiple choice question on paper. Time limit is 15 minute.\r\nTime Duration: 2 hour \r\n\r\nRound 2: This round consist of 3 task [for the qualified participants from the first round]\r\nTask 1: The participants will be given few values of resistances. They will be given some commonly used resistors which they have to identify using the color coding. Using these they have to design simple networks such that the equivalent resistance is equal to the given resistances values. Time limit is 15 minutes.\r\nTask 2: A network circuit diagram will be given to the participants and they have to solve the network diagram using series, parallel and star-delta method(The required equations will be provided). Time limit is 20 minutes.\r\nTask 3: Participants who have solved network circuit diagram correctly will be allowed to implement it on the bread board.\r\nTime Duration: 1 hour 30 minutes\r\n","rules":"1.\tStudents shall bring DMM, Connecting Wires & bread board etc\u2026\r\n2.\tNecessary resistors & Lab facility will be provided by organizing Department.\r\n3.\tFor any kind of rude behavior, team will be disqualified.\r\n","teamsize":"2","date":"6th March 2017","time":"Round 1- 12:00 to 3:00 PM Round 2- 3:00 to 5:00 PM","venue":"","fees":"Rs. 40\/- per team","contact":"Mihir Vaghela(9898847905)\r\nZalak Patel (7779034108)\r\n"},"seventh":{"name":"Simulation Contest (MATLAB, Scilab, Quartus)","tagline":"","description":"Event based on debugging, coding and simulating using any simulator tool.\r\n\r\nRounds Scheme:\r\nRound 1 (Elimination Round): Debugging \r\nEach team is required to solve the errors in the given code and then explain the objective of the code.\r\nRound 2 (Final Round): Simulation \r\nThe teams have to design a program code and simulate it. The objective of the question program will be provided beforehand (one day before the round 2,after the declaration of the teams selected for the next round). If the program is perfectly simulated, modifications will be given.\r\n","rules":"1.\t30 minutes will be allotted for debugging the code.\r\n2.\t10 teams will be selected for the second round. \r\n3.\t30 minutes will be provided to perform the modifications in the program.\r\n","teamsize":"2","date":"Round 1- 6th March 2017 Round 2- 7th March 2017","time":"Round 1- 2:00 to 3:00 PM Round 2- 12:00 to 1:00 PM","venue":"","fees":"Rs. 50\/- per team","contact":"Meetali Patel (9687627496)\r\nKeyur Rakholiya (7567925394)\r\n"},"eighth":{"name":"Tech Genesis","tagline":"","description":"Round Schemes:\r\n\r\nRound 1: This round will check the participants\u2019 problem solving skills and also tap the players\u2019 logical reasoning abilities. This test will consist of a crossword puzzle based on popular taglines and other advertisement related questions. This will be followed by a jumbled puzzle. Out of the teams who have registered, only 10 will be allowed to go for the next round. This round will be completed within 30 mins.\r\n\r\nRound 2: This round is divided into 2 parts. The first part is a technical quiz consisting of MCQ\u2019s and other short questions based on Boolean reduction, digital electronics and network analysis. After this the team will be provided with a comprehensive passage followed by 10 questions. The passage will consists of several encoded words and phrases that have to be deciphered by the participants with the help of the key provided. The result of this round will be used to shortlist 5 teams for the final round. Time limit for this round will be 1 hour.\r\n\r\nRound 3: The teams which reach this round will get the opportunity to take part in an auction to buy various virtual electronic goods kept on sale. The amount of virtual money given to them will be based on their performance in the previous round. The goods they purchase will have to be used to create an electronic product or model which they have to successfully market and advertise. Bidding will take 30 mins followed by 45 mins for making a model and preparing a presentation. Each team will get 5 mins to present their model and advertisement to the judges\r\n","rules":"","teamsize":"4","date":"6th March 2017","time":"Round 1- 10:00 to 11:00 AM Round 2- 12:00 to 1:00 PM Round 3- 3:00 to 5:00 PM","venue":"","fees":"Rs. 60\/- per team","contact":"Yash Patel (9924883289)\r\nSneha Thomas (9712913848)\r\n"}},"mca":{"name":"MCA ","tag":"Techno Kshetra","totalevents":4,"first":{"name":"Act-a-Tech","tagline":"","description":"One member is given one technical word. He tries to convey this word to his team members by enacting it.","rules":"ROUND 1:\r\n1.\tEach team would be given a technical term with one person acting and the other two guessing the right term.\r\n2.\tThe technical term may include following: Any technical jargon, any company\/website\/software logo, or software name etc.\r\n3.\tThe time limit will be 60 seconds.\r\nROUND 2:\r\n1.\tOne of the team members will be given a technical term. The other two persons can ask maximum 10 questions to guess the term.\r\n2.\tThe team members cannot ask direct questions.\r\n3.\tThe person given the term can only answer in Yes\/No.\r\n4.\tThe time limit will be 60 seconds.\r\nROUND 3:\r\n1.\tEach team would be given 10 technical terms to enact.\r\n2.\tThe team successfully identifying maximum terms in 60 seconds will clearly win.\r\nRules:\r\n1.\tThe team should constitute of 3 members.\r\n2.\tTerms\/words will be related to computer science. \r\n3.\tLip movement is not allowed-only hand movement should be there.\r\n4.\tNo lettering, no prompting, no props allowed.\r\n","teamsize":"3 members only","date":"8TH March 2017","time":"9:00 to 10.30AM","venue":"CR-27","fees":"Rs. 120\/-","contact":"Himansu Panchal (MCA)<br> 7568916911<br> himanshu.panchal001@gmail.com"},"second":{"name":"ImaJigsaw ","tagline":"","description":"Showing image parts in progressive manner and participants have to identify as fast as possible.","rules":"Round Details:\r\nRound - 1\r\nParticipants will be shown image related to the field of computer science, like, any hardware component, logo or well-known personality and they have to identify it. Correct Answer will give you 1 Point. The predefined amount of time will be given for each image.\r\n\r\nRound - 2\r\nIn the round 2, all qualified participants will be shown the Partial images. In some cases, Full image will be provided part by part. Each participant has to raise their Given Symbolic Number. Correct Answer will give you 2 Points.\r\nRules:\r\n1.\tParticipant has to raise the symbolic number to answer.\r\n2.\tParticipant who raise first will be given a chance to answer.\r\n3.\tIf tie, participants qualified to answer personally.\r\n4.\tPartial answer will not be considered.\r\n5.\tIn Case of any discrepancy, Event Coordinators decision will be taken as final.  \r\n","teamsize":"","date":"8TH March 2017","time":"2:30 to 4:30 PM\t","venue":"Seminar Hall\t","fees":"Rs. 40","contact":"Prajapati Vishal (MCA)<br> 7405644080<br> vishalprajapati12796@gmail.com"},"third":{"name":"TechHunt ","tagline":"","description":"Teams are required to move from place to place in order to get successive clues to be solved for next place. During the hunt there will be challenges in the form of given code on c and c++ to solve which should be done in least possible time so, as to maintain your pace.","rules":"Round Details: \r\n\r\n1.\tThere will be two rounds.\r\n2.\tFirst round will be elimination round.\r\n3.\tDuring the hunt there will be challenges in the form of code on c and c++ to solve, which should be done in least possible time so, as to maintain your pace.\r\n4.\tThere will be penalties for those teams which are not able to solve code clue.\r\n\r\nRules:\r\n1.\tParticipants should register in teams of maximum 3 persons.\r\n2.\tVarious clues have to be solved.\r\n3.\tGadgets are not allowed.\r\n","teamsize":"3 members","date":"8th March 2017","time":"11:00 to 1:00 PM\t","venue":"CR-27 & 28 and BCA & MCA Laboratories\t","fees":"Rs. 120\/-","contact":"Dhakkar Dhaval (MCA)<br> 8460212474<br> dhavalthakkar4995@gmail.com"},"forth":{"name":"Gaming ","tagline":"","description":"Shoot out your brains and crush out your opponents!!!Enjoy the most exciting games ever\u2026 You can show your team spirit via Counter Strike Condition Zero and your individuality via Need for Speed Most Wanted, So lets get started.","rules":"Round Details:\r\nTeam Vs. Team [ Each Team having 4 Participants for CS & 1 Participants for NFS ] Number of Rounds will be decided only after receiving total number of teams registered.\r\n\r\nRules:\r\n1.\tSpot registration will be closed before 30 mins of the event.\r\n2.\tNo swapping or change of team members will be allowed.\r\n3.\tIf all the members of the team are not present then the registration of the team will be cancelled. They will be allowed to play with the available members of their team.\r\n4.\tCheating in any form will lead to (DQ).\r\n5.\tTeams are expected to report on time with their College Ids for the event. Late entry will also lead to (DQ).\r\n","teamsize":"NFS : 1 member Counter Strike : 4 members","date":"8th March 2017","time":"1:30 PM onwards\t\t","venue":"MCA\/BCA Laboratories\t\t","fees":"Rs. 160 (CS) Rs. 40 (NFS)","contact":"Makvana Vinay(MCA)<br> 8490000156<br>"}}}}';
-
-//$json_string='{"technical":{"day1":{"name":"Day 1","tag":"Twin Day","description":"Twinning is the new cool ..! Isnt it ? On this day fulfill your wish to have a twin. Pick the same outfit, hairstyle, accessories and whatever you want and be the doppelgangers ..!!","totalevents":4,"first":{"name":"Hunt Mania","tagline":"Be Ready To Hunt ..!","description":"3 Persons will be Hunting.\r\nThere will be three rounds in the event.\r\nRound 1 : Twisted Scavengers Hunt\r\n(Round Head : Pranjali Gupta - 8000115736)\r\nEach team will be given a clue. After solving a clue it will lead them to a person, who will give them a task to perform. On the basis of the task marks will be given to each team.\r\nElimination will be done on the marks obtained by each team.\r\nSelected team will be eligible for next round.\r\n\r\nRound 2 : Mock CID\r\n(Round Head : Kalind Mehta - 9426427989)\r\nIn this round there will be 2 tasks.\r\nTask 1 is pen-paper based, where team will be given a question paper. They will have to solve questions related to crime mysteries in the given time i.e. 30 minutes.\r\nTask 2 is crime scene based, where team will be given a clue. They will have to solve clue which will lead them to crime site, and will have to find criminal based on scene in the given time i.e. 30 minutes.\r\nAs per choice of team, either 1 or 2 member(s) of the team will go for Task 1 and remaining members of the team will go for Task 2 simultaneously as per given above. If any members of the team will be free after completing their respective task, they can help to other members of the team.\r\nwill be given to the team on the basis of their performance in both the rounds. Eliminations Marks will be done on the basis of marks.\r\nRound 3 :   The Final Hunt\r\n(Round Heads : Dhruvisha Darji - 9924913617 &amp; Urvish Vasani &#8212; 9638134188)\r\nIn this round there will be 2 tasks.\r\n\r\nAs per choice of team, either 1 or 2 member(s) of the team will go for Task 1 and remaining members of the team will go for Task 2 simultaneously as per given above. If any members of the team will be free after completing their respective task, they can help to other members of the team.\r\n\r\nTask 1 (Burst, Find &amp; Take a Selfie)\r\nAll the participants who are qualified from second round can take part in this round.In this round participants has to burst the balloon and recognize the logo.If the logo  will be  recognized correctly then they have to take selfie with the object written behind logo.\r\n\r\nTask 2 (Surprise round)\r\n????\r\nMarks will be given to the team on the basis of their performance in both the rounds.  Team getting highest marks will be rewarded as winner.","rules":"","teamsize":"3 per team","date":"6\/3\/2017","time":"9:00 AM onwards","venue":"","fees":"90\/- per team","contact":"Kalind Mehta(9426427989)"},"second":{"name":"DDU Art Contest","tagline":"&#8220;Creativity takes courage, if you have it then show it.&#8221;","description":"Show your creativity like Rangoli making, Painting, Sketching, Tattoo Making, Sand art,\r\nFinger painting, etc. based on the theme INCREDIBLE INDIA. Creativity and Opportunity is In the air so take it in and do you thing. \r\n","rules":"Rules of event \/event description in brief:-\r\n&#8220;Creativity takes courage, if you have it then show it.&#8221;\r\n\tShow your creativity like Rangoli making, Painting, Sketching, Tattoo Making, Sand art,\r\nFinger painting, etc. based on the theme INCREDIBLE INDIA. Creativity and Opportunity is \r\nIn the air so take it in and do you thing. \r\nRULES:\t1- All the material required for any art skill is to be brought by the students themselves.\r\n2- Reference for any art is not allowed. So no images references or pictures will be allowed to be brought during the event.\r\n3- Theme is based on INCREDIBLE INDIA so show your art through this theme.\r\n\r\nDimensions: Rangoli making\/Sand art 1.5m*1.5m\r\n\r\nPainting\/Finger painting- A2 size sheet\r\nSketching- A3 size \r\n","teamsize":"","date":"6th March 2017","time":"1 :00 pm  onwards","venue":"Central Foyer","fees":"Rs. 20","contact":"Shlok Jethwa: Contact no- 8511151023\r\n\r\nDhrumin Ranoliya: Contact no- 8866615644 \r\n"},"third":{"name":"BEG BORROW STEAL","tagline":"","description":"1. In first round , list of items will be provided to teams and that teams are required to collect that items by begging , borrowing and stealing from college campus. then according to collection of items points will be given and top 10 teams will enter in next round.\r\n2. In second round, virtual money will be provided to teams and they have to solve clues but for getting clues they have to buy an item with the help of that virtual money and after that only they will get the clue. At last after considering all perspective winner will be decided.\r\n","rules":"1. Participants can beg and borrow enlisted items only from the college campus.\r\n2. If any team is found that any kind of cheating is done ,it will directly lead to disqualification.\r\n","teamsize":"2","date":"6th March 2017","time":"12:00 pm onwards","venue":"ClassRoom -7,8","fees":"Rs 50\/- per team","contact":" parthiv shah (9408050657) "},"forth":{"name":"Model your imagination","tagline":"","description":"Round 1: To built model from ice cream sticks&#8230;\r\nRound 2 : (surprise round) participants will be given 30 minutes for collecting junk from the college, next 30 mins is for building a working product\r\n","rules":"Rules for Round 1: The participants will be provided the ice cream sticks(100-150) and glue&#8230;the participants will be given 45 minutes to built their imagination..\r\nSelections criteria: to qualify for next round a judges panel will decide the model as per the creativity uniqueness and originality..\r\n\r\nRules for Round 2 : (surprise round) participants will be given 30 minutes for collecting junk from the college, next 30 mins is for building a working product&#8230;..\r\nRules: The participants have to search for junk around the college premicies and bring the collected junk to the venue if the collected material is improper it will be removed and only the junk items will be approved then there will be built time allocated to them..\r\n\r\nWinner: will be decided by judges  \r\n","teamsize":"2 (Min)- 3 (Max)","date":"6th March 2017","time":"1:00 pm onwards","venue":"CF","fees":"Rs 20\/- per person","contact":"Charmy Patel - 9574954896"}},"day3":{"name":"Day 3","tag":"Executive day","description":"The corporate world is all about the correct outfit. Pick a shirt, a tie, a blazer or just suit-up! On this day dress up in a formal way and enter into the professional world.","totalevents":3,"first":{"name":"BOLLYBUZZ","tagline":"The show must go on","description":"There Will Be In Total  3 Rounds.\r\nRound 1:\r\n\t-Phase 1: Pen-Paper Test(Max.  Time -30 Mins)\r\n\t\tEvery Team Will Be Provided A Question Paper Consisting A Number Of Questions  Related To Bollywood Movies.\r\n\t-Phase 2:  Guess The Movie Song And Complete It\r\n\t\tParticipants  Will Be  Given Lyrics of Hindi songs In English. So, They Have To Guess The  Correct Name  Of The Song And Sing A Few Lines Of It.\r\nFor  Every Correct Answer  5  Points  Will Be Granted.\r\nFor Every Wrong Answer  5  Points Will Be Deducted.\r\nIf They Are Able To Recognize The Correct Movie Name  Extra 5 Points Will Be Granted.\r\nMarks From Phase 1 And Phase 2 Will Be Added ; Top 10 Teams Will Qualify For Round 2;\r\nRound 2:\r\n\tPictionary.\r\n\t-Depecting Movies\/Songs Via Pictures.\r\n\t-Picking Chits From The  Bowl.\r\n\t-Teams Can Challenge One Another.\r\nTop 4 Teams Will Qualify For Round 3.\r\nRound 3:\r\n\tBolly Quiz  At Center Foyer(Cf).\r\n\t-Various Questions Will Be Asked.","rules":"(1) Participants Can&#8217;t Use Google Or Any Resource To Answer The Questions.\r\n(2) Team Should Consist Of Maximum 3 Students.\r\n(3) There Will Be Total 3 Rounds And At The End, We Will Have A Winner And Runner-Up.\r\n(4) Participant  Found Cheating,Arguing With Co-Ordinator\/Volunteer Will  Be First Warned ,  But If He\/She  Still Repeats The Same Mistake  Then 5 Points  Will Be Deducted  And  Under  Extreme Conditions He\/She Would Be Disqualified.\r\n(5) The Decision Taken By The Co-Ordinater Will  Be Considered  Final In Case Of Any Dispute.","teamsize":"6 members","date":"08\/03\/2017","time":"11:00 onwards","venue":"","fees":"30\/- per team","contact":"VIDIT GANDHI (IT) :\r\nviditgandhi96@gmal.com\r\n9978099389"},"second":{"name":"Words Worriers","tagline":"","description":"Round 1: the participants are suppose to take 5 random chits from bowl. The chit contains random words lie sky,man,water etc. participants have to create using these words. Team which frames best story in less time wins..participants will just have to write down the story..\r\nRules: mobile fones are not allowed&#8230;and\r\nRound 2: The participants will be given a product that they have to prepare ads for&#8230;&#8230;\r\nRules: ideas should be new and no internet copy paste..\r\nWinner: decided by judges panel","rules":"","teamsize":"2 to 3","date":"8th March 2016","time":"12:00 onwards","venue":"Class room no 7,8","fees":"20\/- per head","contact":"Chirag Solanki(c)\r\nEmail - chirusolucky13@gmail.com\r\nMobile - 9033841471\r\n"},"third":{"name":"Time attack","tagline":"","description":"STAGE 1: \r\nTwo teams, each team consist of 4 players, will be taken up for battle round which serves as elimination round. \r\nIn this battle round two teams would compete and face each other in a setup arena for 3 minutes, Here each player would be provided  a water gun along with a tissue attached to the cap and an carton armor having tissue paper attached in center .\r\nThe task would be to tear the tissues of players in opposite team and accordingly points will get accounted in that team.\r\nArena is divided into two parts (Favorable area &#8212; with objects where one can hide and unfavorable   area- with no object for hiding), one who wins the toss can select favorable area.\r\nThe winning team would be taken up to next stage.\r\nNOTE: Boys team will compete with boys team only and girls team will compete with girls team only  \r\n\r\nSTAGE 2:\r\n\r\nFrom now onwards they compete with one another against time (team is now divided in individuals: 4 players).\r\nThis stage consist of 6 levels, Each level is having a task which needs to get completed in 1 Minute.\r\nPlayer is provided 2 lives (2 chances to attempt a task) after completion of level 1.\r\nLevel 1 is common for all 4 players named &quot;Pick It Up&quot;, from here only winner levels up and move for next level\/s.\r\nEach task, on completion, will make player earn cash which will increase by 10 Rupees per level. \r\nA checkpoint is provided after completing Level 2 successfully, where Player is asked to quit with earned price or continue playing; if continued and failed at any above level, player loses earned cash.\r\nThe one who clears all 6 levels will be declared as Winner of &quot;TimeAttack&quot; and will cash out with earned price.","rules":"","teamsize":"4 per team","date":"8th March 2017","time":"9:00 AM onwards","venue":"CF Right wing + Garden near CF","fees":"120\/- per team","contact":"Hardik Modi\r\nhardikmodi2@gmail.com\r\n9662475666"}},"day5":{"name":"Day 5","tag":"Mismatch day","description":"New theme ..! New ideas ..! Showcase your creativity ..! It isnt necessary to always pair your clothes as the fasion blogger says .! On this day there are no rules to dress. So wear things that clash. Try pairing items that would otherwise never go together. You can even try crazy hairstyles or mix wild colors just dress-up for fun ..!!","totalevents":2,"first":{"name":"Orators hunger games","tagline":"","description":"There will be three rounds in this event.\r\nRound 1 (GD):\r\nIn first round, GD for group of ten persons will be conducted. Participants will have to discuss on the given topic to show their views for the respective topic. Judge will give marks to each participant. after completion of GD for all groups results will be declared. Judges decision will be final. Participants getting highest marks will go for next round.\r\nRound 2(picture perception):\r\nIn this round a picture showing some situation or famous personality will be shown to the participant. participant has to describe it in 5 minutes.  judge will give marks to each participant. judges decision will be final. participants getting highest marks will go for next round.\r\nRound 3(it all comes to your speaking &amp; marketing skills):\r\nin this round participant has to sell defective things provided by us. with the help of that money they will have to invest it wisely &amp; try to collect maximum amount. time limit for the round is 30 minutes. participant getting highest amount will be announced as winner.\r\n","rules":"","teamsize":"1 member only","date":"10 \/3\/17 Friday ","time":"9:00 am onwards","venue":"CF","fees":"Rs. 30","contact":"Kalind Mehta\r\nMo.9426427989\r\nEmail: kalindmehta2412@gmail.com"},"second":{"name":"General quiz-battle of brains","tagline":"","description":"&amp;#9679;Event will be having three rounds.\r\n1.First round  will be a written round in which teams will be given a question paper having questions related to current affairs,sports,simple business related questions\r\nelimination will be done based on it\r\n2.Second round is like  a quizmaster will be asking all the teams the same question and the teams have to write  answer  on  a paper.max time for a question will be of 15 sec.\r\nQuestions may a audioclip or video clip or simple question.max4 teams will be selected for final round.\r\n1.Final round will be a buzzer round. The team who will give maximum answer will be the winner.\r\n","rules":"","teamsize":"2 members only","date":"10\/3\/17 friday ","time":"10:00 am  onwards","venue":"Dental seminar hall\/MMH\/seminar hall\/ Classroom","fees":"","contact":"Karan Shah\r\nMo.7698649686\r\nEmail: karanpankajshah@gail.com"}},"day2":{"name":"Day 2","tag":"Traditional day","description":"It is the time to be in a traditional Indian attire. May it be a saree or a kurta or any of the regional attire, dress to your best. Pick a choice that represents the essence of our vast Indian culture.","totalevents":1,"first":{"name":"Picture Abhi Baaki Hai ..!","tagline":"","description":"SHUTTERBUGS presents you a mobile photography event with a twist ..! Click a picture on the basis of a Bollywood movie dialogue you have been assigned and you could win prizes ..! Clicking pictures has never been so much fun. So why not bring along your mates and start clicking ? <br><br>To register yourself : http://bit.ly/2k208SB","rules":"1. Only mobile photography is allowed. <br>2. Area for photography will be restricted. <br>3. SHUTTERBUGS is not responsible for your clicks.","teamsize":"1 member only","date":"7\/3\/17 Tuesday","time":"12:00 pm  onwards","venue":"Garden near CF/Library.","fees":"20 Rs.","contact":"Hardik Shinghala\r\nMo. 9723053247<br><br>Jainil Desai<br> Mo. 7405747597"}},"day4":{"name":"Day 4","tag":"Group day","description":"Stand united! It is the day when the squad gets dressed up portraying the idea that they stand for. Not only the attire would always define the group but it can be anything like representing the army or having little props.Plan a theme and get ready to stand out from the rest of the crowd.","totalevents":0}}}';
 
 $data = json_decode($json_string,true);
 $depts = $data['technical'];

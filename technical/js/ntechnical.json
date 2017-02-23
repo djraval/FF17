@@ -32,12 +32,12 @@ data={
 				"name": "Android Man",
 				"tagline": "",
 				"description": "Uplift your creativity and transform your Android phone into a Swiss-knife.",
-				"rules": "Round 1: Pen paper Elimination Round\r\n\r\nParticipants will be given a set of questions which will check their knowledge about Android as a whole will be tested.\r\n\r\nE.g. Android user Experience, Android Applications, Tasks that one can do on Android Device,Android Rooting etc.\r\n\r\nQualification for the next round will be based on ranking or cutoff marks.\r\n\r\nTime Duration: 30 Minutes.\r\n\r\nRound 2: Perform Task on your Android Phone\r\n\r\nPhase I: It will be rapid fire round where participants will get points on how quick they perform simple tasks in their own android device.\r\n\r\nPhase II: A set of tasks will be given to participants. (E.g.convert a photo into black and white) They need to perform the tasks in minimum time and in a best way.\r\n\r\nTime Duration: - 90 Minutes\r\n\r\nRules: -\r\n\r\n? Final result will be based on rankings in 2nd rounds.\r\n\r\n? Participants have to pre-install apps on their device. Internet access won’t be allowed for any Round.\r\n\r\n? No restriction on installation of apps. Any number/type of apps can be installed on the device.\r\n\r\n? Any Android mobile device can be used.\r\n\r\n? Tablets are allowed.\r\n\r\n? Minimum android version 4.1, jellybean.",
+				"rules": "Round 1: Pen paper Elimination Round\r\n\r\nParticipants will be given a set of questions which will check their knowledge about Android as a whole will be tested.\r\n\r\nE.g. Android user Experience, Android Applications, Tasks that one can do on Android Device,Android Rooting etc.\r\n\r\nQualification for the next round will be based on ranking.\r\n\r\nTime Duration: 30 Minutes.\r\n\r\nRound 2: Perform Task on your Android Phone\r\n\r\nPhase I: It will be rapid fire round where participants will get points on how quick they perform simple tasks in their own android device.\r\n\r\nPhase II: A set of tasks will be given to participants. (E.g.convert a photo into black and white) They need to perform the tasks in minimum time and in a best way.\r\n\r\nTime Duration: - 90 Minutes\r\n\r\nRules: -\r\n\r\n? Final result will be based on commulative rankings.\r\n\r\n? Participants have to pre-install apps on their device. Internet access won’t be allowed for any Round.\r\n\r\n? No restriction on installation of apps. Any number/type of apps can be installed on the device.\r\n\r\n? Any Android mobile device can be used.\r\n\r\n?\r\n\r\n? Android version 4.1 and above is recommended.",
 				"teamsize": "1",
 				"date": "7th March 2017",
 				"time": "12:00 to 1:30 PM",
 				"venue": "Round 1: - 1 Classroom.  Round 2(I): - 1 Lab or Classroom.  Round 2(II): - 1 Lab or Classroom.",
-				"fees": "Rs. 30",
+				"fees": "Rs. 20",
 				"contact": "Riya Delhiwala (riyadelhiwala97@gmail.com M: 9898815283)\r\n\r\nVarun Shah (varun.shah196@gmail.com M: 9712820311)"
 			},
 			"forth": {
@@ -272,9 +272,9 @@ data={
 				"teamsize": "3 participants per team",
 				"date": "10th March 2017",
 				"time": "3:00 to 5:00 PM",
-				"venue": "Seminar Hall",
+				"venue": "Near Admin office",
 				"fees": "50/- per team",
-				"contact": ""
+				"contact": "Prutha Shah(M:7600242320 email: pruthashah819@gmail.com)\r\n\r\nSonali Chauhan(M:7041124626 email: chauhansonu414@gmail.com)"
 			},
 			"second": {
 				"name": "CHEM-ILLUSION",
@@ -286,7 +286,7 @@ data={
 				"time": "4:00 PM to 5:30 PM",
 				"venue": "CR-10",
 				"fees": "30/- per team",
-				"contact": ""
+				"contact": "Heet Manavadariya(M:8238343466 email: manavadariyaheet@gmail.com)\r\n\r\nFenil Miyani(M:7046741872 email: fenilmiyani12@gmail.com)"
 			},
 			"third": {
 				"name": "CHEM-E-QUIZ",
@@ -298,7 +298,7 @@ data={
 				"time": "Round 1: 9:30 to 10:30 AM  Round 2: 2:00 to 3:30 PM",
 				"venue": "Round 1: CR-11  Round 2: CR-10",
 				"fees": "50/-per team",
-				"contact": ""
+				"contact": "Vaibhav Kaswala(M:8460662975 email: vmkaswala1996@gmail.com)\r\n\r\nBhavya Maniar(M:9586407457 email: bhavyamaniyar5.bm@gmail.com)"
 			},
 			"forth": {
 				"name": "EXPLOREREN",
@@ -310,7 +310,7 @@ data={
 				"time": "10:00 to 11:30 AM",
 				"venue": "CR-11",
 				"fees": "Rs. 50/- per team",
-				"contact": ""
+				"contact": "Vedang Trivedi(M:9825358625 email: vedangtrivedi22@gmail.com)\r\n\r\nHemraj Chauhan(M:9429072183 email: hemraj.chauhan1997@gmail.com)"
 			},
 			"fifth": {
 				"name": "HYDROCAR",
@@ -322,7 +322,7 @@ data={
 				"time": "12:30 to 2:30 PM\t",
 				"venue": "CR-10, 11\t",
 				"fees": "50/- per team",
-				"contact": ""
+				"contact": "Mrunal Sheth(M:9408673306)\r\n\r\nYash Patel(M:9537061104"
 			},
 			"sixth": {
 				"name": "TECHNOTALK",
