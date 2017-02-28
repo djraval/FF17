@@ -13,15 +13,15 @@ data={
             "teamsize":"3 per team",
             "date":"6\/3\/2017",
             "time":"9:00 AM onwards",
-            "venue":"",
+            "venue":"Center Foyer",
             "fees":"90\/- per team",
-            "contact":"Kalind Mehta(9426427989)"
+            "contact":"Kalind Mehta Mob No : 9426427989"
          },
          "second":{
             "name":"DDU Art Contest",
             "tagline":"&#8220;Creativity takes courage, if you have it then show it.&#8221;",
-            "description":"Show your creativity like Rangoli making, Painting, Sketching, Tattoo Making, Sand art,\r\nFinger painting, etc. based on the theme INCREDIBLE INDIA. Creativity and Opportunity is In the air so take it in and do you thing. \r\n",
-            "rules":"Rules of event \/event description in brief:-\r\n&#8220;Creativity takes courage, if you have it then show it.&#8221;\r\n\tShow your creativity like Rangoli making, Painting, Sketching, Tattoo Making, Sand art,\r\nFinger painting, etc. based on the theme INCREDIBLE INDIA. Creativity and Opportunity is \r\nIn the air so take it in and do you thing. \r\nRULES:\t1- All the material required for any art skill is to be brought by the students themselves.\r\n2- Reference for any art is not allowed. So no images references or pictures will be allowed to be brought during the event.\r\n3- Theme is based on INCREDIBLE INDIA so show your art through this theme.\r\n\r\nDimensions: Rangoli making\/Sand art 1.5m*1.5m\r\n\r\nPainting\/Finger painting- A2 size sheet\r\nSketching- A3 size \r\n",
+            "description":"Show your creativity like Rangoli making, Painting, Sketching, Tattoo Making, Sand art,\r\nFinger painting, etc. based on the theme INCREDIBLE INDIA. Creativity and Opportunity is in the air so take it in and do your thing. \r\n",
+            "rules":"Event description in brief:-\r\n&#8220;Creativity takes courage, if you have it then show it.&#8221;\r\n\tShow your creativity like Rangoli making, Painting, Sketching, Tattoo Making, Sand art,\r\nFinger painting, etc. based on the theme INCREDIBLE INDIA. Creativity and Opportunity is \r\nIn the air so take it in and do your thing. \r\nRULES:\t1- All the material required for any art skill is to be brought by the students themselves.\r\n2- Reference for any art is not allowed. So no images references or pictures will be allowed to be brought during the event.\r\n3- Theme is based on INCREDIBLE INDIA so show your art through this theme.\r\n\r\nDimensions: Rangoli making\/Sand art 1.5m*1.5m\r\n\r\nPainting\/Finger painting- A2 size sheet\r\nSketching- A3 size \r\n",
             "teamsize":"",
             "date":"6th March 2017",
             "time":"1 :00 pm  onwards",
@@ -39,7 +39,7 @@ data={
             "time":"12:00 pm onwards",
             "venue":"ClassRoom -7,8",
             "fees":"Rs 50\/- per team",
-            "contact":" parthiv shah (9408050657) "
+            "contact":" parthiv shah Mob. NO : 9408050657 "
          },
          "forth":{
             "name":"Model your imagination",
@@ -51,7 +51,7 @@ data={
             "time":"1:00 pm onwards",
             "venue":"CF",
             "fees":"Rs 20\/- per person",
-            "contact":"Charmy Patel - 9574954896"
+            "contact":"Charmy Patel - Mob No : 9574954896"
          },
          "first": {
 				"id": "",
@@ -59,7 +59,7 @@ data={
 				"tagline": "\"Bid for Your Dream Team ..!!\"",
 				"description": "Buy your Dream team, and build it on your Own.<br>Your Price, Your Way.",
 				"rules": "<b>Round 1:</b>   Participants will buy any Team according to their Budget (with Real Money) in Team Auction.<br><b>Round 2:</b> Every Team Owner will buy the Players according to FIX Budget given by us (Virtual Money) & they   have follow    some Rules.<br><Br><b>RULES:</b><br> 1. 15 Players are Compulsory in each team<br>2. 6 Batsman, 5 Bowlers, 4 All-rounder.<br>3. Credits (points) of All Players are fully dependent on their ICC Ranking & Current Form.<br>4. Team which will buy the players with high credits will declare as winner IPL Team.<br>5. The Base Price of each Team is 500/-.",
-				"teamsize": "Upto 5 members",
+				"teamsize": "1 (Individual) or 2",
 				"date":"6th March 2017",
 				"time": "2:00 pm onwards",
 				"venue": "Class room (no. 6)",
@@ -79,10 +79,10 @@ data={
             "rules":"(1) Participants Can&#8217;t Use Google Or Any Resource To Answer The Questions.\r\n(2) Team Should Consist Of Maximum 3 Students.\r\n(3) There Will Be Total 3 Rounds And At The End, We Will Have A Winner And Runner-Up.\r\n(4) Participant  Found Cheating,Arguing With Co-Ordinator\/Volunteer Will  Be First Warned ,  But If He\/She  Still Repeats The Same Mistake  Then 5 Points  Will Be Deducted  And  Under  Extreme Conditions He\/She Would Be Disqualified.\r\n(5) The Decision Taken By The Co-Ordinater Will  Be Considered  Final In Case Of Any Dispute.",
             "teamsize":"6 members",
             "date":"08\/03\/2017",
-            "time":"11:00 onwards",
-            "venue":"",
+            "time":"11:00 am onwards",
+            "venue":"Room No. 1 and Room No. 2",
             "fees":"30\/- per team",
-            "contact":"VIDIT GANDHI (IT) :\r\nviditgandhi96@gmal.com\r\n9978099389"
+            "contact":"VIDIT GANDHI (IT) :\r\nviditgandhi96@gmail.com\r\nMob No : 9978099389"
          },
          "second":{
             "name":"Words Worriers",
@@ -91,10 +91,10 @@ data={
             "rules":"",
             "teamsize":"2 to 3",
             "date":"8th March 2016",
-            "time":"12:00 onwards",
+            "time":"12:00 pm onwards",
             "venue":"Class room no 7,8",
             "fees":"20\/- per head",
-            "contact":"Chirag Solanki(c)\r\nEmail - chirusolucky13@gmail.com\r\nMobile - 9033841471\r\n"
+            "contact":"Chirag Solanki(c)\r\nEmail - chirusolucky13@gmail.com\r\nMob No - 9033841471\r\n"
          },
          "third":{
             "name":"Time attack",
@@ -104,7 +104,7 @@ data={
             "teamsize":"4 per team",
             "date":"8th March 2017",
             "time":"9:00 AM onwards",
-            "venue":"CF Right wing + Garden near CF",
+            "venue":"CF Right wing and Garden near CF",
             "fees":"120\/- per team",
             "contact":"Hardik Modi\r\nhardikmodi2@gmail.com\r\n9662475666"
          }
@@ -118,25 +118,25 @@ data={
             "name":"Orators' hunger games",
             "tagline":"",
             "description":"There will be three rounds in this event.\r\nRound 1 (GD):\r\nIn first round, GD for group of ten persons will be conducted. Participants will have to discuss on the given topic to show their views for the respective topic. Judge will give marks to each participant. after completion of GD for all groups results will be declared. Judge's decision will be final. Participants getting highest marks will go for next round.\r\nRound 2(picture perception):\r\nIn this round a picture showing some situation or famous personality will be shown to the participant. participant has to describe it in 5 minutes.  judge will give marks to each participant. judge's decision will be final. participants getting highest marks will go for next round.\r\nRound 3(it all comes to your speaking &amp; marketing skills):\r\nin this round participant has to sell defective things provided by us. with the help of that money they will have to invest it wisely &amp; try to collect maximum amount. time limit for the round is 30 minutes. participant getting highest amount will be announced as winner.\r\n",
-            "rules":"",
+            "rules":"There will be three rounds in this event.\r\nRound 1 (GD):\r\nIn first round, GD for group of ten persons will be conducted. Participants will have to discuss on the given topic to show their views for the respective topic. Judge will give marks to each participant. after completion of GD for all groups results will be declared. Judge's decision will be final. Participants getting highest marks will go for next round.\r\nRound 2(picture perception):\r\nIn this round a picture showing some situation or famous personality will be shown to the participant. participant has to describe it in 5 minutes.  judge will give marks to each participant. judge's decision will be final. participants getting highest marks will go for next round.\r\nRound 3(it all comes to your speaking &amp; marketing skills):\r\nin this round participant has to sell defective things provided by us. with the help of that money they will have to invest it wisely &amp; try to collect maximum amount. time limit for the round is 30 minutes. participant getting highest amount will be announced as winner.\r\n",
             "teamsize":"1 member only",
-            "date":"10 \/3\/17 Friday ",
+            "date":"10th March 2017 Friday ",
             "time":"9:00 am onwards",
             "venue":"CF",
             "fees":"Rs. 30",
-            "contact":"Kalind Mehta\r\nMo.9426427989\r\nEmail: kalindmehta2412@gmail.com"
+            "contact":"Kalind Mehta\r\nMob No. : 9426427989\r\nEmail: kalindmehta2412@gmail.com"
          },
          "second":{
             "name":"General quiz-battle of brains",
             "tagline":"",
-            "description":"&amp;#9679;Event will be having three rounds.\r\n1.First round  will be a written round in which teams will be given a question paper having questions related to current affairs,sports,simple business related questions\r\nelimination will be done based on it\r\n2.Second round is like  a quizmaster will be asking all the teams the same question and the teams have to write  answer  on  a paper.max time for a question will be of 15 sec.\r\nQuestions may a audioclip or video clip or simple question.max4 teams will be selected for final round.\r\n1.Final round will be a buzzer round. The team who will give maximum answer will be the winner.\r\n",
-            "rules":"",
+            "description":"Event will be having three rounds.\r\n1.First round  will be a written round in which teams will be given a question paper having questions related to current affairs,sports,simple business related questions\r\nelimination will be done based on it\r\n2.Second round is like  a quizmaster will be asking all the teams the same question and the teams have to write  answer  on  a paper.max time for a question will be of 15 sec.\r\nQuestions may a audioclip or video clip or simple question.max4 teams will be selected for final round.\r\n1.Final round will be a buzzer round. The team who will give maximum answer will be the winner.\r\n",
+            "rules":"Event will be having three rounds.\r\n1.First round  will be a written round in which teams will be given a question paper having questions related to current affairs,sports,simple business related questions\r\nelimination will be done based on it\r\n2.Second round is like  a quizmaster will be asking all the teams the same question and the teams have to write  answer  on  a paper.max time for a question will be of 15 sec.\r\nQuestions may a audioclip or video clip or simple question.max4 teams will be selected for final round.\r\n1.Final round will be a buzzer round. The team who will give maximum answer will be the winner.\r\n",
             "teamsize":"2 members only",
             "date":"10\/3\/17 friday ",
             "time":"10:00 am  onwards",
             "venue":"Dental seminar hall\/MMH\/seminar hall\/ Classroom",
-            "fees":"",
-            "contact":"Karan Shah\r\nMo.7698649686\r\nEmail: karanpankajshah@gail.com"
+            "fees":"40 Rs. per Team",
+            "contact":"Karan Shah\r\nMo.7698649686\r\nEmail: karanpankajshah@gmail.com"
          }
       },
       "day2":{
@@ -154,7 +154,7 @@ data={
             "time":"12:00 pm  onwards",
             "venue":"Garden near CF/Library.",
             "fees":"20 Rs.",
-            "contact":"Hardik Shinghala\r\nMo. 9723053247<br><br>Jainil Desai<br> Mo. 7405747597"
+            "contact":"Hardik Shinghala\r\nMob No. 9723053247<br><br>Jainil Desai<br> Mob No. 7405747597"
          }
       },
       "day4":{
