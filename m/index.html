@@ -17,6 +17,9 @@
         if((window.innerHeight > 853 && window.innerWidth > 480) || (window.innerWidth > 853 && window.innerHeight > 480)) {
             window.location = "../index.html";
         }
+	if (screenfull.enabled) {
+    		screenfull.request();
+	}
         function Redirect_central() {
             var centraltest = document.getElementById("centraltech_loaded");
             if(centraltest!=null) {
@@ -163,6 +166,7 @@
 <div class="cd-overlay"><!-- shadow layer visible when navigation is visible --></div>
 
 <script src="js/jquery-2.1.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/3.0.2/screenfull.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/jquery.touchSwipe.min.js"></script>
 <script src="js/scroller.js"></script>
